@@ -1,0 +1,23 @@
+[2019-09-12 16:29:25,466]:[Slot-1] - INFO - ----new log.txt creat----
+[2019-09-12 16:29:25,466]:[Slot-1] - INFO - log level:DEBUG
+[2019-09-12 16:29:25,469]:[Slot-1] - INFO - initWidgets done.
+[2019-09-12 16:29:25,469]:[Slot-1.cfg] - DEBUG - this is setup func...
+[2019-09-12 16:29:25,469]:[Slot-1.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-09-12 16:29:25,469]:[Slot-1.cfg] - WARNING - unload device:34970
+[2019-09-12 16:29:25,469]:[Slot-1.cfg] - DEBUG - this is auto open func
+[2019-09-12 16:29:25,471]:[Slot-1.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port', '/dev/cu.AbMacBookPro-Bluetooth-']
+[2019-09-12 16:29:25,478]:[Slot-1] - INFO - start Slot-1 view done.
+[2019-09-12 16:29:25,478]:[Slot-1] - WARNING - Slot-1 init<_MainThread(MainThread, started 4670744000)>
+[2019-09-12 16:29:34,969]:[Slot-1] - INFO - slot_id:1 msg:mode:debug
+[2019-09-12 16:29:34,969]:[Slot-1] - WARNING - Slot-1:receiveMsgFromSS<_MainThread(MainThread, started 4670744000)>
+[2019-09-12 16:30:11,320]:[Slot-1] - DEBUG - click call config view button...
+[2019-09-12 16:30:11,320]:[Slot-1.cfg] - DEBUG - this is loadUI func...
+[2019-09-12 16:30:11,321]:[Slot-1.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-09-12 16:30:11,323]:[Slot-1.cfg] - INFO - ConfigUI loadUI done
+[2019-09-12 16:30:11,325]:[Slot-1] - INFO - show config view done.
+[2019-09-12 16:30:13,322]:[Slot-1.cfg] - DEBUG - [info]manual close config view...
+[2019-09-12 16:30:13,323]:[Slot-1.cfg] - DEBUG - cfg ui msg:-1
+[2019-09-12 16:30:13,323]:[Slot-1] - DEBUG - config msg:-1
+[2019-09-12 16:30:19,353]:[Slot-1] - INFO - slot_id:1 msg:exit
+[2019-09-12 16:30:19,353]:[Slot-1] - WARNING - Slot-1:receiveMsgFromSS<_MainThread(MainThread, started 4670744000)>
+[2019-09-12 16:30:19,394]:[Slot-1] - INFO - close self done.

@@ -1,0 +1,13 @@
+[2019-09-12 16:30:52,723]:[Slot-3] - INFO - ----new log.txt creat----
+[2019-09-12 16:30:52,723]:[Slot-3] - INFO - log level:DEBUG
+[2019-09-12 16:30:52,725]:[Slot-3] - INFO - initWidgets done.
+[2019-09-12 16:30:52,725]:[Slot-3.cfg] - DEBUG - this is setup func...
+[2019-09-12 16:30:52,726]:[Slot-3.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-09-12 16:30:52,726]:[Slot-3.cfg] - WARNING - unload device:34970
+[2019-09-12 16:30:52,726]:[Slot-3.cfg] - DEBUG - this is auto open func
+[2019-09-12 16:30:52,727]:[Slot-3.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port', '/dev/cu.AbMacBookPro-Bluetooth-']
+[2019-09-12 16:30:52,733]:[Slot-3] - INFO - start Slot-3 view done.
+[2019-09-12 16:30:52,733]:[Slot-3] - WARNING - Slot-3 init<_MainThread(MainThread, started 4553176512)>
+[2019-09-12 16:31:12,510]:[Slot-3] - INFO - slot_id:3 msg:exit
+[2019-09-12 16:31:12,510]:[Slot-3] - WARNING - Slot-3:receiveMsgFromSS<_MainThread(MainThread, started 4553176512)>
+[2019-09-12 16:31:12,558]:[Slot-3] - INFO - close self done.

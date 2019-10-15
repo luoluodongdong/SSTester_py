@@ -1,0 +1,26 @@
+TestItems,Group,Function,Command,RecSuffix,ValueType,ValueSave,Low,ReferValue,Up,Unit,TimeOut,Delay,ExitEnable,Skip,PDCA
+Waiting for fixture ready,SERIAL,connectFIX,reset,*_*,string,,,OK,,,2,0.1,0,0,0
+Set LED on,SERIAL,connectFIX,set LED on,*_*,string,,,OK,,,2,0.1,0,0,1
+Set LED off,SERIAL,connectFIX,set LED off,*_*,string,,,OK,,,2,0.1,0,0,1
+Read step,STEP,connectREAD,readStep,*_*,value,,30,,60,Sunit,2,0.1,0,0,0
+Read temperature,TMP,connectREAD,readTmp,*_*,value,,32.1,,40.1,C,2,0.1,0,0,0
+Show dialog,NA,asyncTask,Is this a async dialog?,,NA,,,,,,2,0.1,0,0,0
+Read Open/Short,SERIAL,connectFIX,FETC?,n,NA,1,,,,,2,0.1,0,0,0
+Check Open1 Value,NA,feedback,1,n,value,,100000,,,oHM,2,0.1,0,0,0
+Check Open2 Value,NA,feedback,2,n,value,,100000,,,oHM,2,0.1,0,0,0
+Check Open3 Value,NA,feedback,3,n,value,,100000,,,oHM,2,0.1,0,0,0
+Check Open4 Value,NA,feedback,4,n,value,,100000,,,oHM,2,0.1,0,0,1
+Check Open5 Value,NA,feedback,5,n,value,,100000,,,oHM,2,0.1,0,0,1
+Check Open6 Value,NA,feedback,6,n,value,,100000,,,oHM,2,0.1,0,1,0
+Show dialog,NA,syncTask,Is this a sync dialog?,,NA,,,,,,2,0.1,0,0,0
+Fixture ready,SERIAL,connectFIX,Ready,n,string,,,OK,,,2,0.1,0,0,0
+System error value,SERIAL,connectFIX,SYST:ERR?,n,string,,,0,,,2,0.1,0,0,0
+Button ON,SERIAL,connectFIX,button ON,n,string,,,OK,,,2,0.1,0,1,0
+Verify Arduino version,SERIAL,connectFIX,version,n,string,,,P,,,2,0.1,0,0,0
+Read IO13 voltage value,VOLT,connectREAD,readVolt1,*_*,value,,4.5,,5.2,V,2,0.1,0,0,0
+System error value,SERIAL,connectFIX,SYST:ERR?,n,string,,,0,,,2,0.1,0,0,0
+Verify Arduino version,SERIAL,connectFIX,version,n,string,,,P,,,2,0.1,0,0,1
+Read IO13 voltage value,VOLT,connectREAD,readVolt1,*_*,value,,4.5,,5.2,V,2,0.1,0,0,0
+Read step,STEP,connectREAD,readStep,*_*,value,,30,,60,Sunit,2,0.1,0,0,0
+System error value,SERIAL,connectFIX,SYST:ERR?,n,string,,,0,,,2,0.1,0,0,0
+Test socketServer,SOCKET,socket,Ready,,string,,,OK,,,2,0.1,0,0,0

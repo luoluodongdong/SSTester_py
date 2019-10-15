@@ -1,0 +1,18 @@
+[2019-10-15 19:32:38,469]:[SSUI] - INFO - ----new log.txt creat----
+[2019-10-15 19:32:38,469]:[SSUI] - INFO - log level:DEBUG
+[2019-10-15 19:32:41,035]:[SSUI.cfg] - INFO - this is setup func...
+[2019-10-15 19:32:41,036]:[SSUI.cfg] - WARNING - unload device:Fixture
+[2019-10-15 19:32:41,037]:[SSUI.cfg] - WARNING - unload device:34970
+[2019-10-15 19:32:41,246]:[SSUI] - INFO - start SS view done.
+[2019-10-15 19:32:41,246]:[SSUI] - WARNING - SSUI:<_MainThread(MainThread, started 4531570112)>
+[2019-10-15 19:32:47,589]:[SSUI] - INFO - index:2 msg:exitOK
+[2019-10-15 19:32:47,589]:[SSUI] - INFO - SS lock release now
+[2019-10-15 19:32:47,589]:[SSUI] - INFO - index:3 msg:exitOK
+[2019-10-15 19:32:47,590]:[SSUI] - INFO - SS lock release now
+[2019-10-15 19:32:47,590]:[SSUI] - INFO - index:0 msg:exitOK
+[2019-10-15 19:32:47,590]:[SSUI] - INFO - SS lock release now
+[2019-10-15 19:32:47,605]:[SSUI] - INFO - index:1 msg:exitOK
+[2019-10-15 19:32:47,605]:[SSUI] - INFO - SS lock release now
+[2019-10-15 19:32:47,639]:[SSUI] - INFO - all slot exit OK!
+[2019-10-15 19:32:47,843]:[SSUI] - INFO - will exit the app...
+[2019-10-15 19:32:48,849]:[SSUI] - INFO - message from exit bar:0

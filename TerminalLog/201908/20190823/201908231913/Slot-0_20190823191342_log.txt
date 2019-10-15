@@ -1,0 +1,32 @@
+[2019-08-23 19:13:42,718]:[Slot-0] - INFO - ----new log.txt creat----
+[2019-08-23 19:13:42,718]:[Slot-0] - INFO - log level:DEBUG
+[2019-08-23 19:13:42,722]:[Slot-0] - INFO - initWidgets done.
+[2019-08-23 19:13:42,722]:[Slot-0.cfg] - DEBUG - this is setup func...
+[2019-08-23 19:13:42,724]:[Slot-0.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-08-23 19:13:43,555]:[Slot-0.cfg] - DEBUG - this is auto open func
+[2019-08-23 19:13:43,555]:[Slot-0.cfg] - DEBUG - this is getInstrList func
+[2019-08-23 19:13:43,834]:[Slot-0.cfg] - DEBUG - ()
+[2019-08-23 19:13:43,834]:[Slot-0.cfg] - DEBUG - this is auto open func
+[2019-08-23 19:13:43,879]:[Slot-0.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port', '/dev/cu.AbMacBookPro-Bluetooth-']
+[2019-08-23 19:13:43,879]:[Slot-0.cfg] - WARNING - unload device:DMM
+[2019-08-23 19:13:43,879]:[Slot-0.cfg] - WARNING - unload device:ELOAD
+[2019-08-23 19:13:44,056]:[Slot-0] - INFO - start Slot-0 view done.
+[2019-08-23 19:13:44,056]:[Slot-0] - WARNING - Slot-0 init<_MainThread(MainThread, started 4563256768)>
+[2019-08-23 19:13:46,384]:[Slot-0] - DEBUG - [PDCA log]:running logger on port:1055
+[2019-08-23 19:13:46,385]:[Slot-0] - DEBUG - [PDCA log]:Running server on port:5555
+[2019-08-23 19:13:46,385]:[Slot-0] - DEBUG - [PDCA log]:init OK
+[2019-08-23 19:13:55,260]:[Slot-0] - INFO - slot_id:0 msg:mode:debug
+[2019-08-23 19:13:55,261]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4563256768)>
+[2019-08-23 19:14:00,185]:[Slot-0] - DEBUG - click call config view button...
+[2019-08-23 19:14:00,185]:[Slot-0.cfg] - DEBUG - this is loadUI func...
+[2019-08-23 19:14:00,186]:[Slot-0.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-08-23 19:14:00,191]:[Slot-0.cfg] - INFO - ConfigUI loadUI done
+[2019-08-23 19:14:00,192]:[Slot-0] - INFO - show config view done.
+[2019-08-23 19:14:02,734]:[Slot-0.cfg] - DEBUG - [info]manual close config view...
+[2019-08-23 19:14:02,734]:[Slot-0.cfg] - DEBUG - cfg ui msg:-1
+[2019-08-23 19:14:02,734]:[Slot-0] - DEBUG - config msg:-1
+[2019-08-23 19:14:09,613]:[Slot-0] - INFO - slot_id:0 msg:exit
+[2019-08-23 19:14:09,614]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4563256768)>
+[2019-08-23 19:14:09,624]:[Slot-0] - DEBUG - [PDCA log]:[RX]exit
+[2019-08-23 19:14:09,625]:[Slot-0] - INFO - close self done.
+[2019-08-23 19:14:09,648]:[Slot-0] - DEBUG - pdca server done.

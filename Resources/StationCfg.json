@@ -1,0 +1,24 @@
+{
+    "SoftwareName": "SMT PCBA Tester",
+    "Version": "1.0.1",
+    "SlotCount": 4,
+    "PassWord": "123",
+    "input": 61,
+    "pass": 57,
+    "Devices": {
+        "Dev0": {
+            "name": "Fixture",
+            "load": 0,
+            "type": "serial",
+            "port": "/dev/cu.wchusbserial1421000",
+            "baud": 9600
+        },
+        "Dev1": {
+            "name": "34970",
+            "load": 0,
+            "type": "nivisa",
+            "port": "ASRL900::INSTR",
+            "baud": 9600
+        }
+    }
+}

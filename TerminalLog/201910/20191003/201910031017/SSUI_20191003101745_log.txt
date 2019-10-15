@@ -1,0 +1,310 @@
+[2019-10-03 10:17:45,524]:[SSUI] - INFO - ----new log.txt creat----
+[2019-10-03 10:17:45,524]:[SSUI] - INFO - log level:DEBUG
+[2019-10-03 10:17:46,047]:[SSUI.cfg] - INFO - this is setup func...
+[2019-10-03 10:17:46,048]:[SSUI.cfg] - WARNING - unload device:Fixture
+[2019-10-03 10:17:46,048]:[SSUI.cfg] - WARNING - unload device:34970
+[2019-10-03 10:17:46,215]:[SSUI] - INFO - start SS view done.
+[2019-10-03 10:17:46,215]:[SSUI] - WARNING - SSUI:<_MainThread(MainThread, started 4539094464)>
+[2019-10-03 10:18:06,033]:[SSUI] - DEBUG - first scan sn:12
+[2019-10-03 10:18:06,035]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-10-03 10:18:06,037]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:18:06,037]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:18:07,401]:[SSUI.scanSn] - INFO - scan sn:11
+[2019-10-03 10:18:07,401]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:18:07,401]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:18:07,414]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:18:08,545]:[SSUI.scanSn] - INFO - scan sn:11
+[2019-10-03 10:18:09,836]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:18:11,392]:[SSUI.scanSn] - INFO - scan sn:12
+[2019-10-03 10:18:12,201]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:18:13,328]:[SSUI.scanSn] - INFO - scan sn:13
+[2019-10-03 10:18:13,329]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:18:13,329]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:18:13,348]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:18:15,224]:[SSUI.scanSn] - INFO - scan sn:14
+[2019-10-03 10:18:15,225]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:18:15,225]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:18:15,225]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-10-03 10:18:15,225]:[SSUI.scanSn] - DEBUG - ['12', '11', '13', '14']
+[2019-10-03 10:18:15,225]:[SSUI] - INFO - msg form scan sn:['12', '11', '13', '14']
+[2019-10-03 10:18:15,227]:[SSUI] - DEBUG - start all test...
+[2019-10-03 10:18:17,072]:[SSUI] - INFO - index:3 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:17,072]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:17,078]:[SSUI] - INFO - index:1 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:17,079]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:17,125]:[SSUI] - INFO - async question:asyncKey from slot:3
+[2019-10-03 10:18:17,125]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:17,126]:[SSUI] - INFO - async question:asyncKey from slot:1
+[2019-10-03 10:18:17,126]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:17,233]:[SSUI] - INFO - index:3 msg:returnKey
+[2019-10-03 10:18:17,233]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:17,736]:[SSUI] - INFO - index:1 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:17,737]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:17,758]:[SSUI] - INFO - async question:asyncKey from slot:1
+[2019-10-03 10:18:17,758]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:17,844]:[SSUI] - INFO - index:1 msg:returnKey
+[2019-10-03 10:18:17,844]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:18,479]:[SSUI] - INFO - index:3 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:18:18,479]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:18,484]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:18:19,094]:[SSUI] - INFO - index:1 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:18:19,094]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:19,117]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:18:26,499]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:26,500]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:26,500]:[SSUI] - INFO - index:2 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:26,500]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:26,504]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:18:26,504]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:26,504]:[SSUI] - INFO - async question:asyncKey from slot:2
+[2019-10-03 10:18:26,504]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:26,602]:[SSUI] - INFO - index:0 msg:returnKey
+[2019-10-03 10:18:26,602]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:27,103]:[SSUI] - INFO - index:2 msg:asyncQuery:asyncKey
+[2019-10-03 10:18:27,103]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:27,141]:[SSUI] - INFO - async question:asyncKey from slot:2
+[2019-10-03 10:18:27,141]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:18:27,212]:[SSUI] - INFO - index:2 msg:returnKey
+[2019-10-03 10:18:27,212]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:27,850]:[SSUI] - INFO - index:0 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:18:27,850]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:27,861]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:18:28,454]:[SSUI] - INFO - index:2 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:18:28,454]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:28,478]:[SSUI] - INFO - sync question:dialog#Is this a sync dialog? from slot:2
+[2019-10-03 10:18:28,478]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:18:28,479]:[SSUI] - INFO - sync task print log!!!
+[2019-10-03 10:18:32,133]:[SSUI] - INFO - index:3 msg:endTest#1#14,PASS,Slot-3,,,2019/10/03 10:18:15,2019/10/03 10:18:32,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:18:32,134]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:32,134]:[SSUI] - INFO - index:1 msg:endTest#1#11,PASS,Slot-1,,,2019/10/03 10:18:15,2019/10/03 10:18:32,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:18:32,134]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:32,722]:[SSUI] - INFO - index:2 msg:endTest#0#13,FAIL,Slot-2,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;,2019/10/03 10:18:15,2019/10/03 10:18:32,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:18:32,722]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:34,744]:[SSUI] - INFO - index:0 msg:endTest#0#12,FAIL,Slot-0,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;Fixture ready;Verify Arduino version;Read IO13 voltage value;Verify Arduino version;Read step;System error value;,2019/10/03 10:18:15,2019/10/03 10:18:34,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,+0;No Error,<Arduino-01-08-02-P>,NA,4.86V*_*,+0;No E,<Arduino-01-08-02-P>,4.86V*_*,5,+0;No Er,,NA,
+[2019-10-03 10:18:34,744]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:18:34,762]:[SSUI] - INFO - find all test task!
+[2019-10-03 10:18:34,953]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:19:06,654]:[SSUI] - DEBUG - first scan sn:1
+[2019-10-03 10:19:06,657]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-10-03 10:19:06,658]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:19:06,658]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:19:07,103]:[SSUI.scanSn] - INFO - scan sn:2
+[2019-10-03 10:19:07,103]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:19:07,103]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:19:07,120]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:19:07,471]:[SSUI.scanSn] - INFO - scan sn:3
+[2019-10-03 10:19:07,471]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:19:07,471]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:19:07,486]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:19:07,879]:[SSUI.scanSn] - INFO - scan sn:4
+[2019-10-03 10:19:07,879]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:19:07,879]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:19:07,879]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-10-03 10:19:07,879]:[SSUI.scanSn] - DEBUG - ['1', '2', '3', '4']
+[2019-10-03 10:19:07,880]:[SSUI] - INFO - msg form scan sn:['1', '2', '3', '4']
+[2019-10-03 10:19:07,881]:[SSUI] - DEBUG - start all test...
+[2019-10-03 10:19:09,733]:[SSUI] - INFO - index:1 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:09,733]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:09,733]:[SSUI] - INFO - index:3 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:09,733]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:09,771]:[SSUI] - INFO - async question:asyncKey from slot:1
+[2019-10-03 10:19:09,771]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:09,772]:[SSUI] - INFO - async question:asyncKey from slot:3
+[2019-10-03 10:19:09,772]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:09,838]:[SSUI] - INFO - index:1 msg:returnKey
+[2019-10-03 10:19:09,838]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:10,338]:[SSUI] - INFO - index:3 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:10,339]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:10,350]:[SSUI] - INFO - async question:asyncKey from slot:3
+[2019-10-03 10:19:10,350]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:10,391]:[SSUI] - INFO - index:3 msg:returnKey
+[2019-10-03 10:19:10,391]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:11,083]:[SSUI] - INFO - index:1 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:19:11,084]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:11,085]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:19:11,629]:[SSUI] - INFO - index:3 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:19:11,630]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:11,667]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:19:19,120]:[SSUI] - INFO - index:2 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:19,121]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:19,121]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:19,121]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:19,143]:[SSUI] - INFO - async question:asyncKey from slot:2
+[2019-10-03 10:19:19,143]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:19,144]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:19:19,144]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:19,229]:[SSUI] - INFO - index:2 msg:returnKey
+[2019-10-03 10:19:19,229]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:19,732]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:19:19,732]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:19,787]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:19:19,787]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:19:19,890]:[SSUI] - INFO - index:0 msg:returnKey
+[2019-10-03 10:19:19,891]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:20,471]:[SSUI] - INFO - index:2 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:19:20,471]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:20,520]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:19:21,130]:[SSUI] - INFO - index:0 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:19:21,130]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:21,158]:[SSUI] - INFO - sync question:dialog#Is this a sync dialog? from slot:0
+[2019-10-03 10:19:21,159]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:19:21,159]:[SSUI] - INFO - sync task print log!!!
+[2019-10-03 10:19:24,789]:[SSUI] - INFO - index:1 msg:endTest#1#2,PASS,Slot-1,,,2019/10/03 10:19:07,2019/10/03 10:19:24,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:19:24,789]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:24,812]:[SSUI] - INFO - index:3 msg:endTest#1#4,PASS,Slot-3,,,2019/10/03 10:19:07,2019/10/03 10:19:24,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:19:24,812]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:25,385]:[SSUI] - INFO - index:0 msg:endTest#0#1,FAIL,Slot-0,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;,2019/10/03 10:19:07,2019/10/03 10:19:25,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:19:25,385]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:27,424]:[SSUI] - INFO - index:2 msg:endTest#0#3,FAIL,Slot-2,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;Fixture ready;Verify Arduino version;Read IO13 voltage value;Verify Arduino version;Read step;System error value;,2019/10/03 10:19:07,2019/10/03 10:19:27,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,+0;No Error,<Arduino-01-08-02-P>,NA,4.86V*_*,+0;No E,<Arduino-01-08-02-P>,4.86V*_*,5,+0;No Er,,NA,
+[2019-10-03 10:19:27,424]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:19:27,432]:[SSUI] - INFO - find all test task!
+[2019-10-03 10:19:27,582]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:20:15,518]:[SSUI] - INFO - index:0 msg:selected:0
+[2019-10-03 10:20:15,518]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:17,324]:[SSUI] - INFO - index:3 msg:selected:0
+[2019-10-03 10:20:17,324]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:18,423]:[SSUI] - INFO - index:1 msg:selected:0
+[2019-10-03 10:20:18,423]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:19,772]:[SSUI] - DEBUG - first scan sn:1
+[2019-10-03 10:20:19,774]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-10-03 10:20:19,775]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:20:19,775]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:20:19,778]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-10-03 10:20:19,778]:[SSUI.scanSn] - INFO - ['', '', '1', '']
+[2019-10-03 10:20:19,778]:[SSUI] - INFO - msg form scan sn:['', '', '1', '']
+[2019-10-03 10:20:19,779]:[SSUI] - DEBUG - start all test...
+[2019-10-03 10:20:21,624]:[SSUI] - INFO - index:2 msg:asyncQuery:asyncKey
+[2019-10-03 10:20:21,624]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:21,671]:[SSUI] - INFO - async question:asyncKey from slot:2
+[2019-10-03 10:20:21,671]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:20:21,732]:[SSUI] - INFO - index:2 msg:returnKey
+[2019-10-03 10:20:21,732]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:22,976]:[SSUI] - INFO - index:2 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:20:22,976]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:22,997]:[SSUI] - INFO - sync question:dialog#Is this a sync dialog? from slot:2
+[2019-10-03 10:20:22,997]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:20:22,997]:[SSUI] - INFO - sync task print log!!!
+[2019-10-03 10:20:26,653]:[SSUI] - INFO - index:2 msg:endTest#1#1,PASS,Slot-2,,,2019/10/03 10:20:19,2019/10/03 10:20:26,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:20:26,653]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:26,682]:[SSUI] - INFO - find all test task!
+[2019-10-03 10:20:26,746]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:20:29,948]:[SSUI] - INFO - index:2 msg:selected:0
+[2019-10-03 10:20:29,948]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:32,649]:[SSUI] - INFO - index:0 msg:selected:1
+[2019-10-03 10:20:32,649]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:34,379]:[SSUI] - DEBUG - first scan sn:1
+[2019-10-03 10:20:34,381]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-10-03 10:20:34,383]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:20:34,383]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:20:34,386]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-10-03 10:20:34,386]:[SSUI.scanSn] - INFO - ['1', '', '', '']
+[2019-10-03 10:20:34,386]:[SSUI] - INFO - msg form scan sn:['1', '', '', '']
+[2019-10-03 10:20:34,386]:[SSUI] - DEBUG - start all test...
+[2019-10-03 10:20:36,227]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:20:36,227]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:36,272]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:20:36,272]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:20:36,328]:[SSUI] - INFO - index:0 msg:returnKey
+[2019-10-03 10:20:36,328]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:37,581]:[SSUI] - INFO - index:0 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:20:37,582]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:37,634]:[SSUI] - INFO - sync question:dialog#Is this a sync dialog? from slot:0
+[2019-10-03 10:20:37,634]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:20:37,634]:[SSUI] - INFO - sync task print log!!!
+[2019-10-03 10:20:41,229]:[SSUI] - INFO - index:0 msg:endTest#1#1,PASS,Slot-0,,,2019/10/03 10:20:34,2019/10/03 10:20:41,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:20:41,229]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:20:41,259]:[SSUI] - INFO - find all test task!
+[2019-10-03 10:20:41,399]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:21:16,246]:[SSUI] - INFO - index:1 msg:selected:1
+[2019-10-03 10:21:16,246]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:17,209]:[SSUI] - INFO - index:3 msg:selected:1
+[2019-10-03 10:21:17,209]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:18,106]:[SSUI] - INFO - index:2 msg:selected:1
+[2019-10-03 10:21:18,106]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:20,690]:[SSUI] - DEBUG - first scan sn:1
+[2019-10-03 10:21:20,692]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-10-03 10:21:20,694]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:21:20,694]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:21:21,586]:[SSUI.scanSn] - INFO - scan sn:2
+[2019-10-03 10:21:21,586]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:21:21,586]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:21:21,604]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:21:22,154]:[SSUI.scanSn] - INFO - scan sn:3
+[2019-10-03 10:21:22,154]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:21:22,154]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:21:22,170]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-10-03 10:21:22,978]:[SSUI.scanSn] - INFO - scan sn:4
+[2019-10-03 10:21:22,978]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-10-03 10:21:22,978]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-10-03 10:21:22,979]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-10-03 10:21:22,979]:[SSUI.scanSn] - DEBUG - ['1', '2', '3', '4']
+[2019-10-03 10:21:22,979]:[SSUI] - INFO - msg form scan sn:['1', '2', '3', '4']
+[2019-10-03 10:21:22,980]:[SSUI] - DEBUG - start all test...
+[2019-10-03 10:21:24,855]:[SSUI] - INFO - index:1 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:24,856]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:24,856]:[SSUI] - INFO - index:3 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:24,856]:[SSUI] - INFO - async question:asyncKey from slot:1
+[2019-10-03 10:21:24,856]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:24,856]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:24,857]:[SSUI] - INFO - async question:asyncKey from slot:3
+[2019-10-03 10:21:24,857]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:24,962]:[SSUI] - INFO - index:1 msg:returnKey
+[2019-10-03 10:21:24,962]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:25,465]:[SSUI] - INFO - index:3 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:25,466]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:25,482]:[SSUI] - INFO - async question:asyncKey from slot:3
+[2019-10-03 10:21:25,482]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:25,570]:[SSUI] - INFO - index:3 msg:returnKey
+[2019-10-03 10:21:25,570]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:26,191]:[SSUI] - INFO - index:1 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:21:26,191]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:26,219]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:21:26,815]:[SSUI] - INFO - index:3 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:21:26,815]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:26,859]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:21:34,332]:[SSUI] - INFO - index:2 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:34,332]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:34,332]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:34,332]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:34,351]:[SSUI] - INFO - async question:asyncKey from slot:2
+[2019-10-03 10:21:34,351]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:34,352]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:21:34,353]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:34,437]:[SSUI] - INFO - index:2 msg:returnKey
+[2019-10-03 10:21:34,437]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:34,942]:[SSUI] - INFO - index:0 msg:asyncQuery:asyncKey
+[2019-10-03 10:21:34,942]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:34,980]:[SSUI] - INFO - async question:asyncKey from slot:0
+[2019-10-03 10:21:34,980]:[SSUI] - DEBUG - start async reply done.
+[2019-10-03 10:21:35,052]:[SSUI] - INFO - index:0 msg:returnKey
+[2019-10-03 10:21:35,052]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:35,680]:[SSUI] - INFO - index:2 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:21:35,680]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:35,713]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:21:36,295]:[SSUI] - INFO - index:0 msg:syncQuery:dialog#Is this a sync dialog?
+[2019-10-03 10:21:36,295]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:36,344]:[SSUI] - INFO - sync question:dialog#Is this a sync dialog? from slot:0
+[2019-10-03 10:21:36,344]:[SSUI] - DEBUG - start sync reply done.
+[2019-10-03 10:21:36,344]:[SSUI] - INFO - sync task print log!!!
+[2019-10-03 10:21:40,010]:[SSUI] - INFO - index:1 msg:endTest#1#2,PASS,Slot-1,,,2019/10/03 10:21:23,2019/10/03 10:21:40,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:21:40,010]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:40,016]:[SSUI] - INFO - index:3 msg:endTest#1#4,PASS,Slot-3,,,2019/10/03 10:21:23,2019/10/03 10:21:40,OK*_*,OK*_*,OK*_*,55,35.67,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:21:40,017]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:41,044]:[SSUI] - INFO - index:2 msg:endTest#0#3,FAIL,Slot-2,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;,2019/10/03 10:21:23,2019/10/03 10:21:41,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,OK OK,+0;No Error,NA,<Arduino-01-08-02-P>,4.86,+0;No Error,<Arduino-01-08-02-P>,4.86,55,+0;No Error,NA,
+[2019-10-03 10:21:41,044]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:43,106]:[SSUI] - INFO - index:0 msg:endTest#0#1,FAIL,Slot-0,ER_0,Waiting for fixture ready;Set LED on;Set LED off;Read step;Read temperature;Fixture ready;Verify Arduino version;Read IO13 voltage value;Verify Arduino version;Read step;System error value;,2019/10/03 10:21:23,2019/10/03 10:21:43,,,,,,OK,+9.10000000E+37;+9.20000000E+37;+9.30000000E+37;+9.40000000E+37;+9.50000000E+37,+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37,NA,OK,+0;No Error,<Arduino-01-08-02-P>,NA,4.86V*_*,+0;No E,<Arduino-01-08-02-P>,4.86V*_*,5,+0;No Er,,NA,
+[2019-10-03 10:21:43,106]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:21:43,117]:[SSUI] - INFO - find all test task!
+[2019-10-03 10:21:43,180]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:21:59,988]:[SSUI] - DEBUG - save json config successful
+[2019-10-03 10:22:43,383]:[SSUI] - INFO - index:0 msg:exitOK
+[2019-10-03 10:22:43,384]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:22:43,389]:[SSUI] - INFO - index:3 msg:exitOK
+[2019-10-03 10:22:43,389]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:22:43,392]:[SSUI] - INFO - index:1 msg:exitOK
+[2019-10-03 10:22:43,392]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:22:43,392]:[SSUI] - INFO - index:2 msg:exitOK
+[2019-10-03 10:22:43,393]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:22:43,432]:[SSUI] - INFO - all slot exit OK!
+[2019-10-03 10:22:43,635]:[SSUI] - INFO - will exit the app...
+[2019-10-03 10:22:44,639]:[SSUI] - INFO - message from exit bar:0

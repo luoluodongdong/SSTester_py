@@ -1,0 +1,27 @@
+[2019-10-03 10:15:56,992]:[SSUI] - INFO - ----new log.txt creat----
+[2019-10-03 10:15:56,992]:[SSUI] - INFO - log level:DEBUG
+[2019-10-03 10:15:57,519]:[SSUI.cfg] - INFO - this is setup func...
+[2019-10-03 10:15:57,520]:[SSUI.cfg] - WARNING - unload device:Fixture
+[2019-10-03 10:15:57,520]:[SSUI.cfg] - WARNING - unload device:34970
+[2019-10-03 10:15:57,784]:[SSUI] - INFO - start SS view done.
+[2019-10-03 10:15:57,784]:[SSUI] - WARNING - SSUI:<_MainThread(MainThread, started 4546229696)>
+[2019-10-03 10:16:13,143]:[SSUI] - DEBUG - click debug mode menu
+[2019-10-03 10:16:13,145]:[SSUI] - INFO - Password loadUI done
+[2019-10-03 10:16:15,092]:[SSUI] - INFO - key match
+[2019-10-03 10:16:15,093]:[SSUI] - INFO - password is right
+[2019-10-03 10:16:22,357]:[SSUI] - INFO - index:1 msg:closeCfgView
+[2019-10-03 10:16:22,357]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:16:29,377]:[SSUI] - INFO - index:0 msg:closeCfgView
+[2019-10-03 10:16:29,377]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:17:21,273]:[SSUI] - DEBUG - cancel close app!
+[2019-10-03 10:17:24,144]:[SSUI] - INFO - index:0 msg:exitOK
+[2019-10-03 10:17:24,145]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:17:24,147]:[SSUI] - INFO - index:1 msg:exitOK
+[2019-10-03 10:17:24,148]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:17:24,151]:[SSUI] - INFO - index:3 msg:exitOK
+[2019-10-03 10:17:24,151]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:17:24,153]:[SSUI] - INFO - index:2 msg:exitOK
+[2019-10-03 10:17:24,153]:[SSUI] - INFO - SS lock release now
+[2019-10-03 10:17:24,194]:[SSUI] - INFO - all slot exit OK!
+[2019-10-03 10:17:24,400]:[SSUI] - INFO - will exit the app...
+[2019-10-03 10:17:25,417]:[SSUI] - INFO - message from exit bar:0

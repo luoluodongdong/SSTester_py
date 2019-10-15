@@ -1,0 +1,15 @@
+[2019-10-15 19:32:41,038]:[Slot-0] - INFO - ----new log.txt creat----
+[2019-10-15 19:32:41,038]:[Slot-0] - INFO - log level:DEBUG
+[2019-10-15 19:32:41,042]:[Slot-0] - INFO - initWidgets done.
+[2019-10-15 19:32:41,042]:[Slot-0.cfg] - DEBUG - this is setup func...
+[2019-10-15 19:32:41,044]:[Slot-0.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14220'}}}
+[2019-10-15 19:32:41,044]:[Slot-0.cfg] - WARNING - unload device:34970
+[2019-10-15 19:32:41,045]:[Slot-0.cfg] - DEBUG - this is auto open func
+[2019-10-15 19:32:41,091]:[Slot-0.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port', '/dev/cu.AbMacBookPro-Bluetooth-']
+[2019-10-15 19:32:41,091]:[Slot-0.cfg] - WARNING - unload device:DMM
+[2019-10-15 19:32:41,091]:[Slot-0.cfg] - WARNING - unload device:ELOAD
+[2019-10-15 19:32:41,117]:[Slot-0] - INFO - start Slot-0 view done.
+[2019-10-15 19:32:41,118]:[Slot-0] - WARNING - Slot-0 init<_MainThread(MainThread, started 4531570112)>
+[2019-10-15 19:32:47,577]:[Slot-0] - INFO - slot_id:0 msg:exit
+[2019-10-15 19:32:47,577]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4531570112)>
+[2019-10-15 19:32:47,591]:[Slot-0] - INFO - close self done.

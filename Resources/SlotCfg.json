@@ -1,0 +1,80 @@
+{
+    "Slot-1": {
+        "Dev1": {
+            "load": 0,
+            "baud": 9600,
+            "type": "nivisa",
+            "name": "34970",
+            "port": "ASRL110::INSTR"
+        },
+        "Dev0": {
+            "load": 1,
+            "baud": 9600,
+            "type": "serial",
+            "name": "DUT",
+            "port": "/dev/cu.wchusbserial14210"
+        }
+    },
+    "Slot-0": {
+        "Dev1": {
+            "load": 0,
+            "baud": 9600,
+            "type": "nivisa",
+            "name": "34970",
+            "port": "ASRL110::INSTR"
+        },
+        "Dev0": {
+            "load": 1,
+            "baud": 9600,
+            "type": "serial",
+            "name": "DUT",
+            "port": "/dev/cu.wchusbserial14240"
+        },
+        "Dev2": {
+            "load": 0,
+            "baud": 9600,
+            "type": "serial",
+            "name": "DMM",
+            "port": "/dev/cu.usbmodem14204"
+        },
+        "Dev3": {
+            "load": 0,
+            "type": "socket",
+            "name": "ELOAD",
+            "ip": "127.24.0.1",
+            "port": "7600"
+        }
+    },
+    "Slot-3": {
+        "Dev1": {
+            "load": 0,
+            "baud": 9600,
+            "type": "nivisa",
+            "name": "34970",
+            "port": "ASRL110::INSTR"
+        },
+        "Dev0": {
+            "load": 1,
+            "baud": 9600,
+            "type": "serial",
+            "name": "DUT",
+            "port": "/dev/cu.wchusbserial14230"
+        }
+    },
+    "Slot-2": {
+        "Dev1": {
+            "load": 0,
+            "baud": 9600,
+            "type": "nivisa",
+            "name": "34970",
+            "port": "ASRL110::INSTR"
+        },
+        "Dev0": {
+            "load": 1,
+            "baud": 9600,
+            "type": "serial",
+            "name": "DUT",
+            "port": "/dev/cu.wchusbserial14220"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+[2019-08-20 10:05:58,252]:[Slot-1] - INFO - ----new log.txt creat----
+[2019-08-20 10:05:58,252]:[Slot-1] - INFO - log level:DEBUG
+[2019-08-20 10:05:58,254]:[Slot-1] - INFO - initWidgets done.
+[2019-08-20 10:05:58,254]:[Slot-1.cfg] - DEBUG - this is setup func...
+[2019-08-20 10:05:58,254]:[Slot-1.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-08-20 10:05:58,254]:[Slot-1.cfg] - WARNING - unload device:34970
+[2019-08-20 10:05:58,254]:[Slot-1.cfg] - DEBUG - this is auto open func
+[2019-08-20 10:05:58,255]:[Slot-1.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port']
+[2019-08-20 10:05:58,363]:[Slot-1] - INFO - start Slot-1 view done.
+[2019-08-20 10:05:58,363]:[Slot-1] - WARNING - Slot-1 init<_MainThread(MainThread, started 4478207424)>
+[2019-08-20 10:06:11,359]:[Slot-1] - INFO - slot_id:1 msg:mode:debug
+[2019-08-20 10:06:11,359]:[Slot-1] - WARNING - Slot-1:receiveMsgFromSS<_MainThread(MainThread, started 4478207424)>
+[2019-08-20 10:06:19,701]:[Slot-1] - DEBUG - click call config view button...
+[2019-08-20 10:06:19,701]:[Slot-1.cfg] - DEBUG - this is loadUI func...
+[2019-08-20 10:06:19,702]:[Slot-1.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 1, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}}}
+[2019-08-20 10:06:19,704]:[Slot-1.cfg] - INFO - ConfigUI loadUI done
+[2019-08-20 10:06:19,705]:[Slot-1] - INFO - show config view done.
+[2019-08-20 10:06:21,128]:[Slot-1.cfg] - DEBUG - [info]manual close config view...
+[2019-08-20 10:06:21,128]:[Slot-1.cfg] - DEBUG - cfg ui msg:-1
+[2019-08-20 10:06:21,128]:[Slot-1] - DEBUG - config msg:-1
+[2019-08-20 10:06:23,687]:[Slot-1] - INFO - slot_id:1 msg:exit
+[2019-08-20 10:06:23,687]:[Slot-1] - WARNING - Slot-1:receiveMsgFromSS<_MainThread(MainThread, started 4478207424)>
+[2019-08-20 10:06:24,215]:[Slot-1] - DEBUG - [PDCA log]:running logger on port:1056
+[2019-08-20 10:06:24,216]:[Slot-1] - DEBUG - [PDCA log]:Running server on port:5556
+[2019-08-20 10:06:24,216]:[Slot-1] - DEBUG - [PDCA log]:init OK
+[2019-08-20 10:06:24,271]:[Slot-1] - DEBUG - [PDCA log]:[RX]exit
+[2019-08-20 10:06:24,271]:[Slot-1] - INFO - close self done.
+[2019-08-20 10:06:24,292]:[Slot-1] - DEBUG - pdca server done.

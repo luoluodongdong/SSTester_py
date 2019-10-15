@@ -1,0 +1,56 @@
+[2019-08-24 14:24:53,667]:[SSUI] - INFO - ----new log.txt creat----
+[2019-08-24 14:24:53,668]:[SSUI] - INFO - log level:DEBUG
+[2019-08-24 14:24:54,817]:[SSUI.cfg] - INFO - this is setup func...
+[2019-08-24 14:24:54,818]:[SSUI.cfg] - WARNING - unload device:Fixture
+[2019-08-24 14:24:54,819]:[SSUI.cfg] - WARNING - unload device:34970
+[2019-08-24 14:24:56,194]:[SSUI] - INFO - start SS view done.
+[2019-08-24 14:24:56,194]:[SSUI] - WARNING - SSUI:<_MainThread(MainThread, started 4586501568)>
+[2019-08-24 14:25:02,719]:[SSUI] - DEBUG - click debug mode menu
+[2019-08-24 14:25:02,721]:[SSUI] - INFO - Password loadUI done
+[2019-08-24 14:25:04,449]:[SSUI] - INFO - key match
+[2019-08-24 14:25:04,450]:[SSUI] - INFO - password is right
+[2019-08-24 14:25:07,006]:[SSUI] - INFO - index:0 msg:closeCfgView
+[2019-08-24 14:25:07,006]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:25:59,218]:[SSUI] - INFO - index:0 msg:closeCfgView
+[2019-08-24 14:25:59,218]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:26:08,613]:[SSUI] - DEBUG - first scan sn:12W
+[2019-08-24 14:26:08,616]:[SSUI.scanSn] - INFO - ScanSn loadUI done
+[2019-08-24 14:26:08,617]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-08-24 14:26:08,617]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-08-24 14:26:15,381]:[SSUI.scanSn] - INFO - scan sn:QWW
+[2019-08-24 14:26:15,381]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-08-24 14:26:15,381]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-08-24 14:26:15,399]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-08-24 14:26:16,189]:[SSUI.scanSn] - INFO - scan sn:223
+[2019-08-24 14:26:16,189]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-08-24 14:26:16,189]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-08-24 14:26:16,199]:[SSUI.scanSn] - INFO - -->>scan sn done.
+[2019-08-24 14:26:17,077]:[SSUI.scanSn] - INFO - scan sn:123
+[2019-08-24 14:26:17,077]:[SSUI.scanSn] - DEBUG - this is CheckSn.isOK func
+[2019-08-24 14:26:17,077]:[SSUI.scanSn] - DEBUG - this is hasFinished
+[2019-08-24 14:26:17,078]:[SSUI.scanSn] - INFO - finish all scan sn
+[2019-08-24 14:26:17,078]:[SSUI.scanSn] - DEBUG - ['12W', 'QWW', '223', '123']
+[2019-08-24 14:26:17,078]:[SSUI] - INFO - msg form scan sn:['12W', 'QWW', '223', '123']
+[2019-08-24 14:26:17,079]:[SSUI] - DEBUG - start all test...
+[2019-08-24 14:26:17,124]:[SSUI] - INFO - index:0 msg:endTest:0
+[2019-08-24 14:26:17,124]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:26:17,124]:[SSUI] - INFO - index:3 msg:endTest:0
+[2019-08-24 14:26:17,126]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:26:17,126]:[SSUI] - INFO - index:1 msg:endTest:0
+[2019-08-24 14:26:17,126]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:26:17,127]:[SSUI] - INFO - index:2 msg:endTest:0
+[2019-08-24 14:26:17,127]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:26:17,142]:[SSUI] - ERROR - list index out of range
+[2019-08-24 14:26:17,143]:[SSUI] - ERROR - list index out of range
+[2019-08-24 14:26:17,143]:[SSUI] - ERROR - list index out of range
+[2019-08-24 14:26:17,143]:[SSUI] - ERROR - list index out of range
+[2019-08-24 14:28:05,122]:[SSUI] - INFO - index:0 msg:exitOK
+[2019-08-24 14:28:05,122]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:28:05,702]:[SSUI] - INFO - index:1 msg:exitOK
+[2019-08-24 14:28:05,703]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:28:06,311]:[SSUI] - INFO - index:2 msg:exitOK
+[2019-08-24 14:28:06,312]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:28:06,869]:[SSUI] - INFO - index:3 msg:exitOK
+[2019-08-24 14:28:06,869]:[SSUI] - INFO - SS lock release now
+[2019-08-24 14:28:06,922]:[SSUI] - INFO - all slot exit OK!
+[2019-08-24 14:28:07,805]:[SSUI] - INFO - message from exit bar:0

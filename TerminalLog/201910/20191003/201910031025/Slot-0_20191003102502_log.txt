@@ -1,0 +1,1842 @@
+[2019-10-03 10:25:02,557]:[Slot-0] - INFO - ----new log.txt creat----
+[2019-10-03 10:25:02,557]:[Slot-0] - INFO - log level:DEBUG
+[2019-10-03 10:25:02,560]:[Slot-0] - INFO - initWidgets done.
+[2019-10-03 10:25:02,560]:[Slot-0.cfg] - DEBUG - this is setup func...
+[2019-10-03 10:25:02,560]:[Slot-0.cfg] - DEBUG - {'Slot-1': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14210'}}, 'Slot-0': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14240'}, 'Dev2': {'load': 0, 'baud': 9600, 'type': 'serial', 'name': 'DMM', 'port': '/dev/cu.usbmodem14204'}, 'Dev3': {'load': 0, 'type': 'socket', 'name': 'ELOAD', 'ip': '127.24.0.1', 'port': '7600'}}, 'Slot-3': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14230'}}, 'Slot-2': {'Dev1': {'load': 0, 'baud': 9600, 'type': 'nivisa', 'name': '34970', 'port': 'ASRL110::INSTR'}, 'Dev0': {'load': 1, 'baud': 9600, 'type': 'serial', 'name': 'DUT', 'port': '/dev/cu.wchusbserial14220'}}}
+[2019-10-03 10:25:02,560]:[Slot-0.cfg] - WARNING - unload device:34970
+[2019-10-03 10:25:02,560]:[Slot-0.cfg] - DEBUG - this is auto open func
+[2019-10-03 10:25:02,567]:[Slot-0.cfg] - DEBUG - ['/dev/cu.Bluetooth-Incoming-Port', '/dev/cu.AbMacBookPro-Bluetooth-', '/dev/cu.wchusbserial14220', '/dev/cu.wchusbserial14230', '/dev/cu.wchusbserial14210', '/dev/cu.wchusbserial14240', '/dev/cu.usbserial-14240', '/dev/cu.usbserial-14210', '/dev/cu.usbserial-14230', '/dev/cu.usbserial-14220']
+[2019-10-03 10:25:02,571]:[Slot-0.cfg] - WARNING - unload device:DMM
+[2019-10-03 10:25:02,571]:[Slot-0.cfg] - WARNING - unload device:ELOAD
+[2019-10-03 10:25:02,589]:[Slot-0] - INFO - start Slot-0 view done.
+[2019-10-03 10:25:02,590]:[Slot-0] - WARNING - Slot-0 init<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:05,217]:[Slot-0] - INFO - slot_id:0 msg:idle
+[2019-10-03 10:25:05,217]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:06,451]:[Slot-0] - INFO - slot_id:0 msg:sn:1
+[2019-10-03 10:25:06,451]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:06,452]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:25:06,452]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:06,486]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:25:06,487]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145488113664)>
+[2019-10-03 10:25:06,487]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:06,488]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:25:06,488]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:06,488]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:25:06,489]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:06,745]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:06,745]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:06,848]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:06,848]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:25:06,849]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:06,849]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:25:06,849]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:07,104]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:07,104]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:07,210]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:07,210]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:25:07,210]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:07,210]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:25:07,210]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:07,466]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:07,466]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:07,570]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:07,571]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:07,571]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:07,571]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:07,571]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:07,829]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:07,830]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:07,930]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:07,931]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:25:07,931]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:07,931]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:25:07,931]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:08,188]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:25:08,188]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:25:08,294]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:08,294]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:08,324]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:25:08,325]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:25:08,398]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:25:08,399]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.11s
+[2019-10-03 10:25:08,499]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:08,499]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:25:08,499]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:08,499]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:25:08,500]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:08,913]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:25:08,913]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.41s
+[2019-10-03 10:25:08,964]:[Slot-0] - DEBUG - click call detial view button...
+[2019-10-03 10:25:09,013]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,014]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:25:09,014]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,115]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,115]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:25:09,115]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,217]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,217]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:25:09,217]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,322]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,323]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:25:09,323]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,425]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,425]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:25:09,425]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,525]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,526]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:25:09,526]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:09,628]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:09,628]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:10,261]:[Slot-0] - DEBUG - close detial event
+[2019-10-03 10:25:10,261]:[Slot-0] - DEBUG - 0
+[2019-10-03 10:25:11,054]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:25:11,054]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-2, started daemon 123145524899840)>
+[2019-10-03 10:25:11,107]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.48s
+[2019-10-03 10:25:11,211]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:11,212]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:25:11,212]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:11,212]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:25:11,212]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:11,469]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:25:11,469]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:11,569]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:11,570]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:11,570]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:11,570]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:11,570]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:11,827]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:11,828]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:11,928]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:11,928]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:25:11,928]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:12,030]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:12,030]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:12,030]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:12,031]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:12,031]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:12,284]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:12,284]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:25:12,389]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:12,390]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:12,390]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:12,390]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:12,390]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:12,650]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:12,650]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:25:12,750]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:12,750]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:12,751]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:12,751]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:12,751]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:13,007]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:13,007]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:13,107]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:13,108]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:13,108]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:13,108]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:13,108]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:13,360]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:13,360]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:25:13,461]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:13,461]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:13,461]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:13,461]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:13,461]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:13,717]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:13,718]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:25:13,821]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:13,822]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:13,822]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:13,822]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:13,822]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:14,079]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:14,079]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:14,181]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:14,182]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:14,182]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:14,182]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:14,182]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:14,437]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:14,438]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:14,539]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:14,539]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:25:14,539]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:25:14,540]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:14,942]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:25:14,942]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:29,074]:[Slot-0] - INFO - slot_id:0 msg:mode:debug
+[2019-10-03 10:25:29,074]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:34,649]:[Slot-0] - INFO - slot_id:0 msg:idle
+[2019-10-03 10:25:34,649]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:37,162]:[Slot-0] - INFO - slot_id:0 msg:sn:11
+[2019-10-03 10:25:37,162]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:37,164]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:25:37,164]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:37,185]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:25:37,186]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145498087424)>
+[2019-10-03 10:25:37,210]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:37,211]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:25:37,212]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:37,212]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:25:37,213]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:37,470]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:37,471]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:37,573]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:37,573]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:25:37,574]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:37,574]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:25:37,575]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:37,834]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:37,834]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:37,936]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:37,936]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:25:37,936]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:37,936]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:25:37,936]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:38,194]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:38,194]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:38,298]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:38,298]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:38,298]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:38,298]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:38,298]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:38,551]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:38,551]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.25s
+[2019-10-03 10:25:38,652]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:38,652]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:25:38,652]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:38,652]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:25:38,653]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:38,910]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:25:38,911]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:25:39,011]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:39,012]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:39,066]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:25:39,066]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145525436416)>
+[2019-10-03 10:25:39,172]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:25:39,173]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.16s
+[2019-10-03 10:25:39,278]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:39,279]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:25:39,279]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:39,279]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:25:39,279]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:39,704]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:25:39,705]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.43s
+[2019-10-03 10:25:39,806]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:39,807]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:25:39,807]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:39,907]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:39,907]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:25:39,908]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:40,012]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:40,012]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:25:40,012]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:40,116]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:40,116]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:25:40,116]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:40,217]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:40,217]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:25:40,217]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:40,319]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:40,319]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:25:40,320]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:40,420]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:40,421]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:42,223]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:25:42,223]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-3, started daemon 123145525436416)>
+[2019-10-03 10:25:42,338]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.92s
+[2019-10-03 10:25:42,440]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:42,440]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:25:42,440]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:42,440]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:25:42,440]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:42,702]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:25:42,703]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:42,804]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:42,804]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:42,804]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:42,804]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:42,804]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:43,065]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:43,065]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:43,166]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:43,167]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:25:43,167]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:43,268]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:43,269]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:43,270]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:43,270]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:43,270]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:43,531]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:43,531]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:25:43,635]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:43,636]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:43,637]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:43,638]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:43,638]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:43,899]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:43,900]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:25:44,001]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:44,001]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:44,001]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:44,002]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:44,002]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:44,257]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:44,257]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:44,358]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:44,358]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:44,358]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:44,358]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:44,359]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:44,612]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:44,612]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:25:44,717]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:44,719]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:44,720]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:44,720]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:44,720]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:44,971]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:44,972]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.25s
+[2019-10-03 10:25:45,073]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:45,073]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:45,073]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:45,074]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:45,074]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:45,334]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:45,334]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:45,434]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:45,435]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:45,435]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:45,435]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:45,436]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:45,700]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:45,700]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.27s
+[2019-10-03 10:25:45,801]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:45,802]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:25:45,802]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:25:45,802]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:45,983]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:25:45,983]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:46,607]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:25:46,607]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:46,610]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:25:46,610]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145498087424)>
+[2019-10-03 10:25:46,615]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:46,616]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:25:46,616]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:46,616]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:25:46,616]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:46,873]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:46,874]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:46,976]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:46,977]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:25:46,977]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:46,977]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:25:46,978]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:47,237]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:47,238]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:47,340]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:47,341]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:25:47,341]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:47,341]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:25:47,342]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:47,599]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:47,600]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:47,702]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:47,704]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:47,705]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:47,705]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:47,705]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:47,959]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:47,960]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:48,063]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:48,064]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:25:48,064]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:48,064]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:25:48,065]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:48,326]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:25:48,326]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:25:48,427]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:48,429]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:48,438]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:25:48,438]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:49,067]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:25:49,067]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:49,643]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:25:49,644]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:50,277]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:25:50,277]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:50,355]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:25:50,356]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.93s
+[2019-10-03 10:25:50,456]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:50,456]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:25:50,456]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:50,456]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:25:50,457]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:50,878]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:25:50,878]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:25:50,978]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:50,978]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:25:50,979]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,082]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,082]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:25:51,082]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,184]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,184]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:25:51,184]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,285]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,285]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:25:51,285]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,389]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,389]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:25:51,389]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,494]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,495]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:25:51,495]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:51,599]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,599]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:51,637]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:25:51,637]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:51,705]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.11s
+[2019-10-03 10:25:51,811]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:51,811]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:25:51,811]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:51,812]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:25:51,812]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:52,067]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:25:52,068]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:52,168]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:52,169]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:52,169]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:52,169]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:52,169]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:52,424]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:52,424]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:52,528]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:52,529]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:25:52,529]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:52,629]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:52,629]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:52,629]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:52,629]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:52,630]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:52,891]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:52,891]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:25:52,994]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:52,995]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:52,995]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:52,995]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:52,995]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:53,257]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:53,257]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:25:53,359]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:53,359]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:53,360]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:53,360]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:53,360]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:53,617]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:53,617]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:53,721]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:53,721]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:25:53,721]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:53,722]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:25:53,722]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:53,978]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:25:53,978]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:25:54,081]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:54,082]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:25:54,082]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:54,082]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:25:54,082]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:54,338]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:25:54,338]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:25:54,439]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:54,440]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:54,440]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:54,440]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:54,440]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:54,697]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:54,697]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:54,802]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:54,803]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:25:54,803]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:54,803]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:25:54,803]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:55,057]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:25:55,057]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:25:55,158]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:55,159]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:25:55,159]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:25:55,159]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:25:55,459]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:25:55,459]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:55,864]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:25:55,864]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:25:55,919]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:25:55,919]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145487577088)>
+[2019-10-03 10:25:55,921]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:55,922]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:25:55,922]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:55,922]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:25:55,922]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:56,184]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:56,185]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:56,286]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:56,287]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:25:56,287]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:56,287]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:25:56,287]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:56,539]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:56,539]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.25s
+[2019-10-03 10:25:56,642]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:56,643]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:25:56,643]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:56,643]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:25:56,643]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:56,900]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:25:56,900]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:25:57,001]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:57,002]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:25:57,003]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:57,003]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:25:57,003]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:57,262]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:25:57,263]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:25:57,365]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:57,365]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:25:57,365]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:57,366]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:25:57,366]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:57,630]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:25:57,630]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.27s
+[2019-10-03 10:25:57,733]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:57,734]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:25:57,777]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:25:57,778]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145529618432)>
+[2019-10-03 10:25:58,368]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:25:58,369]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:58,900]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:25:58,900]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:25:58,948]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:25:58,948]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.22s
+[2019-10-03 10:25:59,052]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,052]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:25:59,052]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:25:59,053]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:25:59,053]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:25:59,464]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:25:59,464]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.41s
+[2019-10-03 10:25:59,568]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,568]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:25:59,568]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:59,669]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,670]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:25:59,670]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:59,774]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,774]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:25:59,774]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:59,878]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,878]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:25:59,878]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:25:59,984]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:25:59,984]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:25:59,984]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:00,089]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:00,089]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:00,089]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:00,192]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:00,192]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:00,846]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:00,846]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-3, started daemon 123145524363264)>
+[2019-10-03 10:26:00,929]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.74s
+[2019-10-03 10:26:01,032]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:01,032]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:01,032]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:01,032]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:01,033]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:01,295]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:01,295]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:01,395]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:01,395]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:01,396]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:01,396]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:01,396]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:01,653]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:01,653]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:01,753]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:01,754]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:01,754]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:01,854]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:01,854]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:01,854]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:01,855]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:01,855]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:02,108]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:02,109]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:26:02,214]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:02,214]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:02,214]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:02,214]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:02,215]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:02,475]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:02,475]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:02,580]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:02,580]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:02,580]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:02,580]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:02,580]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:02,839]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:02,840]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:02,942]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:02,942]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:02,942]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:02,942]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:02,942]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:03,198]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:03,198]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:03,302]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:03,302]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:03,302]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:03,303]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:03,303]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:03,559]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:03,559]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:03,663]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:03,663]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:03,663]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:03,663]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:03,663]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:03,921]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:03,921]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:04,023]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:04,023]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:04,023]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:04,023]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:04,023]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:04,277]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:04,277]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.25s
+[2019-10-03 10:26:04,378]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:04,379]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:04,379]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:04,379]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:04,714]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:04,714]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:05,121]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:05,121]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:05,171]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:05,172]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145498087424)>
+[2019-10-03 10:26:05,174]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:05,174]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:05,175]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:05,175]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:05,177]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:05,436]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:05,437]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:05,541]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:05,543]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:05,543]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:05,544]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:05,544]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:05,804]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:05,804]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:05,908]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:05,908]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:05,909]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:05,909]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:05,910]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:06,175]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:06,175]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.27s
+[2019-10-03 10:26:06,277]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:06,278]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:06,278]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:06,278]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:06,279]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:06,535]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:06,535]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:06,637]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:06,638]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:06,638]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:06,638]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:06,639]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:06,892]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:06,892]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:06,995]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:06,995]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:07,022]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:07,022]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:07,602]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:07,602]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:07,655]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:07,655]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.66s
+[2019-10-03 10:26:07,756]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:07,756]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:07,756]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:07,756]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:07,756]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:08,171]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:08,171]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:26:08,273]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,274]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:08,274]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,374]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,374]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:08,375]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,475]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,475]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:08,475]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,576]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,576]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:08,576]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,677]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,677]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:08,678]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,779]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,779]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:08,779]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:08,880]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:08,880]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:10,202]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:10,202]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-2, started daemon 123145524363264)>
+[2019-10-03 10:26:10,284]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.40s
+[2019-10-03 10:26:10,390]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:10,390]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:10,390]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:10,390]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:10,391]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:10,648]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:10,649]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:10,749]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:10,749]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:10,750]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:10,750]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:10,750]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:11,009]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:11,010]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:11,111]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:11,111]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:11,111]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:11,214]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:11,214]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:11,214]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:11,214]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:11,214]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:11,465]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:11,466]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:26:11,568]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:11,568]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:11,568]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:11,568]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:11,568]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:11,823]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:11,824]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:11,925]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:11,925]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:11,925]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:11,925]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:11,925]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:12,184]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:12,185]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:12,287]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:12,289]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:12,289]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:12,289]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:12,289]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:12,552]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:12,552]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:12,655]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:12,658]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:12,658]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:12,659]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:12,659]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:12,915]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:12,915]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:13,020]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:13,022]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:13,022]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:13,023]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:13,024]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:13,277]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:13,278]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:13,383]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:13,384]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:13,384]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:13,384]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:13,385]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:13,641]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:13,641]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:13,742]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:13,742]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:13,742]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:13,743]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:13,969]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:13,970]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:14,377]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:14,377]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:14,397]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:14,397]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145482321920)>
+[2019-10-03 10:26:14,398]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:14,398]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:14,399]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:14,399]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:14,400]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:14,661]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:14,662]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:14,765]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:14,765]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:14,765]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:14,765]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:14,766]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:15,021]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:15,022]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:15,129]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:15,130]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:15,130]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:15,130]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:15,130]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:15,385]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:15,386]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:15,488]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:15,488]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:15,489]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:15,489]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:15,490]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:15,742]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:15,743]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.25s
+[2019-10-03 10:26:15,845]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:15,846]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:15,846]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:15,846]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:15,847]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:16,110]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:16,110]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:16,216]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:16,217]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:16,257]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:16,257]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:16,839]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:16,840]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:17,413]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:17,414]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145529618432)>
+[2019-10-03 10:26:18,043]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:18,044]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:18,095]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:18,096]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.88s
+[2019-10-03 10:26:18,197]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:18,197]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:18,197]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:18,197]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:18,197]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:18,612]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:18,612]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:26:18,715]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:18,716]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:18,716]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:18,821]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:18,821]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:18,821]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:18,922]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:18,922]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:18,922]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:19,028]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,028]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:19,028]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:19,134]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,134]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:19,134]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:19,235]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,235]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:19,235]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:19,339]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,340]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:19,349]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:19,349]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:19,442]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.10s
+[2019-10-03 10:26:19,545]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,545]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:19,545]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:19,545]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:19,545]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:19,805]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:19,806]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:19,906]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:19,906]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:19,906]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:19,906]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:19,907]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:20,165]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:20,166]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:20,266]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:20,266]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:20,266]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:20,368]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:20,369]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:20,369]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:20,369]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:20,369]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:20,629]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:20,630]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:20,733]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:20,733]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:20,733]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:20,733]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:20,733]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:20,984]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:20,985]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.25s
+[2019-10-03 10:26:21,089]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:21,089]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:21,090]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:21,090]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:21,090]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:21,346]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:21,346]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:21,447]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:21,447]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:21,447]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:21,448]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:21,448]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:21,706]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:21,706]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:21,809]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:21,810]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:21,810]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:21,810]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:21,810]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:22,070]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:22,070]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:22,171]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:22,171]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:22,171]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:22,171]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:22,171]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:22,424]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:22,424]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.25s
+[2019-10-03 10:26:22,525]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:22,525]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:22,525]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:22,525]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:22,525]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:22,777]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:22,779]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.25s
+[2019-10-03 10:26:22,882]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:22,882]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:22,882]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:22,882]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:23,034]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:23,034]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:23,682]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:23,683]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:23,706]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:23,707]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145482321920)>
+[2019-10-03 10:26:23,708]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:23,708]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:23,708]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:23,709]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:23,709]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:23,963]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:23,963]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:24,067]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:24,067]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:24,067]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:24,067]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:24,067]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:24,321]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:24,322]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:24,424]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:24,424]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:24,424]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:24,424]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:24,424]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:24,681]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:24,682]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:24,787]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:24,787]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:24,787]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:24,788]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:24,788]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:25,040]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:25,041]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.25s
+[2019-10-03 10:26:25,144]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:25,145]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:25,145]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:25,145]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:25,145]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:25,405]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:25,405]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:25,510]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:25,510]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:25,563]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:25,563]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524363264)>
+[2019-10-03 10:26:25,614]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:25,614]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.10s
+[2019-10-03 10:26:25,715]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:25,715]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:25,715]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:25,715]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:25,715]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:26,129]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:26,129]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.41s
+[2019-10-03 10:26:26,229]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,230]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:26,230]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,334]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,334]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:26,334]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,436]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,436]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:26,436]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,538]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,538]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:26,538]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,639]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,639]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:26,639]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,741]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,741]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:26,741]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:26,845]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:26,845]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:28,762]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:28,762]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-1, started daemon 123145524363264)>
+[2019-10-03 10:26:28,822]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.98s
+[2019-10-03 10:26:28,922]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:28,923]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:28,923]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:28,923]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:28,924]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:29,180]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:29,181]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:29,283]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:29,284]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:29,284]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:29,284]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:29,284]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:29,541]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:29,544]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:29,649]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:29,650]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:29,650]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:29,750]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:29,750]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:29,751]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:29,751]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:29,751]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:30,011]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:30,011]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:30,114]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:30,115]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:30,115]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:30,115]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:30,116]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:30,374]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:30,374]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:30,477]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:30,478]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:30,478]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:30,478]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:30,478]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:30,740]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:30,741]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:30,843]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:30,845]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:30,846]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:30,846]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:30,846]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:31,111]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:31,112]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.27s
+[2019-10-03 10:26:31,214]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:31,215]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:31,215]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:31,215]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:31,215]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:31,473]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:31,474]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:31,578]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:31,579]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:31,579]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:31,580]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:31,580]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:31,840]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:31,841]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:31,945]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:31,946]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:31,946]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:31,946]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:31,947]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:32,199]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:32,200]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.25s
+[2019-10-03 10:26:32,300]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:32,301]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:32,301]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:32,301]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:32,536]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:32,536]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:33,144]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:33,145]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:33,181]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:33,182]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145493368832)>
+[2019-10-03 10:26:33,183]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:33,184]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:33,185]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:33,185]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:33,185]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:33,444]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:33,444]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:33,546]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:33,548]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:33,548]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:33,548]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:33,549]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:33,807]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:33,808]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:33,911]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:33,913]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:33,913]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:33,914]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:33,914]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:34,170]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:34,171]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:34,274]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:34,275]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:34,275]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:34,276]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:34,276]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:34,536]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:34,537]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:34,639]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:34,639]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:34,640]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:34,640]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:34,641]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:34,896]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:34,896]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:34,999]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:35,000]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:35,008]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:35,008]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:35,654]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:35,655]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:36,227]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:36,227]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145530155008)>
+[2019-10-03 10:26:36,858]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:36,858]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:36,924]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:36,924]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.92s
+[2019-10-03 10:26:37,025]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,026]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:37,026]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:37,026]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:37,026]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:37,441]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:37,441]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:26:37,542]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,542]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:37,543]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:37,645]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,645]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:37,645]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:37,746]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,747]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:37,747]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:37,852]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,852]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:37,853]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:37,958]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:37,958]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:37,959]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:38,059]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:38,060]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:38,060]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:38,164]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:38,164]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:38,173]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:38,173]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:38,221]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.06s
+[2019-10-03 10:26:38,324]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:38,325]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:38,325]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:38,325]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:38,325]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:38,584]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:38,585]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:38,685]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:38,685]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:38,685]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:38,686]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:38,686]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:38,944]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:38,944]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:39,048]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:39,049]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:39,049]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:39,150]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:39,150]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:39,150]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:39,150]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:39,150]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:39,409]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:39,410]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:39,512]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:39,513]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:39,513]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:39,513]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:39,513]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:39,769]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:39,769]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:39,873]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:39,874]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:39,874]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:39,874]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:39,874]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:40,132]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:40,133]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:40,238]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:40,238]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:40,238]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:40,238]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:40,239]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:40,492]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:40,492]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.25s
+[2019-10-03 10:26:40,593]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:40,593]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:40,593]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:40,593]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:40,594]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:40,849]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:40,850]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:40,952]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:40,952]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:40,953]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:40,953]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:40,953]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:41,210]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:41,210]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:41,314]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:41,314]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:41,314]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:41,314]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:41,314]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:41,570]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:41,570]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:41,676]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:41,676]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:41,677]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:41,677]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:41,993]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:41,994]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:42,400]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:42,400]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:42,451]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:42,452]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145482858496)>
+[2019-10-03 10:26:42,454]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:42,454]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:42,454]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:42,455]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:42,456]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:42,715]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:42,716]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:42,818]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:42,819]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:42,819]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:42,819]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:42,819]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:43,076]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:43,077]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:43,182]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:43,182]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:43,182]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:43,182]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:43,183]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:43,441]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:43,441]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:43,541]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:43,542]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:43,542]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:43,542]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:43,542]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:43,801]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:43,801]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:43,904]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:43,904]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:43,904]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:43,904]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:43,904]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:44,166]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:44,167]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:44,269]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:44,269]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:44,302]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:44,303]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:44,375]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:44,376]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.11s
+[2019-10-03 10:26:44,477]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:44,477]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:44,477]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:44,477]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:44,477]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:44,895]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:44,895]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:26:45,001]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,001]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:45,001]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,102]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,102]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:45,102]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,203]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,203]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:45,203]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,305]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,305]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:45,305]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,407]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,407]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:45,408]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,509]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,509]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:45,509]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:45,610]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:45,610]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:47,445]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:47,445]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-2, started daemon 123145524899840)>
+[2019-10-03 10:26:47,544]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.93s
+[2019-10-03 10:26:47,650]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:47,650]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:47,651]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:47,651]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:47,652]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:47,906]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:47,907]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:48,009]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:48,009]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:48,010]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:48,011]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:48,012]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:48,267]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:48,268]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:48,372]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:48,372]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:48,373]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:48,475]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:48,475]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:48,475]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:48,476]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:48,476]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:48,734]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:48,735]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:48,838]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:48,838]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:48,838]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:48,839]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:48,839]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:49,096]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:49,096]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:49,198]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:49,199]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:49,199]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:49,200]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:49,200]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:49,454]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:49,455]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:49,559]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:49,560]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:49,560]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:49,561]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:49,561]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:49,818]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:49,818]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:49,922]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:49,923]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:49,923]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:49,924]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:49,924]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:50,180]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:50,181]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:50,282]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:50,283]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:50,283]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:50,284]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:50,284]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:50,542]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:50,542]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:50,644]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:50,644]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:50,645]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:50,645]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:50,645]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:50,902]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:50,902]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:51,005]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:51,006]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:26:51,006]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:26:51,006]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:51,252]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:26:51,252]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:51,861]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:26:51,861]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:26:51,898]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:26:51,899]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145498624000)>
+[2019-10-03 10:26:51,904]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:51,904]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:26:51,904]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:51,905]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:26:51,905]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:52,165]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:52,165]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:52,268]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:52,269]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:26:52,269]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:52,270]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:26:52,271]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:52,528]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:52,530]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:52,635]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:52,635]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:26:52,637]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:52,637]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:26:52,638]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:52,895]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:26:52,895]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:26:52,997]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:52,997]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:52,998]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:52,998]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:52,999]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:53,255]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:53,256]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:26:53,359]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:53,360]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:26:53,361]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:53,362]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:26:53,364]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:53,617]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:26:53,618]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:26:53,719]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:53,720]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:53,724]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:26:53,724]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:54,301]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:26:54,301]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:26:54,335]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:26:54,335]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.62s
+[2019-10-03 10:26:54,437]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:54,437]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:26:54,438]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:54,438]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:26:54,438]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:54,856]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:26:54,856]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:26:54,958]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:54,959]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:26:54,959]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,060]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,060]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:26:55,060]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,160]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,161]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:26:55,161]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,261]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,261]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:26:55,261]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,362]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,362]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:26:55,362]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,466]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,466]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:26:55,466]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:26:55,571]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:55,572]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:26:56,887]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:26:56,888]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-3, started daemon 123145524899840)>
+[2019-10-03 10:26:56,992]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.42s
+[2019-10-03 10:26:57,096]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:57,097]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:26:57,097]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:57,098]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:26:57,098]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:57,350]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:26:57,350]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.25s
+[2019-10-03 10:26:57,451]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:57,451]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:57,451]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:57,451]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:57,452]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:57,713]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:57,714]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:57,817]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:57,818]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:26:57,818]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:26:57,924]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:57,924]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:57,924]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:57,925]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:57,925]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:58,186]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:58,187]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:58,289]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:58,290]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:58,291]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:58,291]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:58,291]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:58,550]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:58,550]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:58,650]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:58,651]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:26:58,651]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:58,651]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:26:58,652]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:58,908]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:26:58,908]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:26:59,010]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:59,011]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:26:59,011]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:59,012]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:26:59,012]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:59,268]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:26:59,269]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:26:59,371]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:59,371]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:26:59,372]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:59,372]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:26:59,372]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:59,630]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:26:59,630]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:26:59,733]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:26:59,734]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:26:59,734]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:26:59,734]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:26:59,735]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:26:59,995]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:26:59,996]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:27:00,096]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:00,097]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:27:00,097]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:00,097]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:27:00,097]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:00,350]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:27:00,351]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.25s
+[2019-10-03 10:27:00,453]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:00,453]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:27:00,454]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:27:00,454]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:27:00,709]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:27:00,710]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:27:01,117]:[Slot-0] - INFO - slot_id:0 msg:start
+[2019-10-03 10:27:01,117]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:27:01,133]:[Slot-0] - DEBUG - this is startTest...
+[2019-10-03 10:27:01,133]:[Slot-0] - WARNING - start Test func:<Thread(startThread_Slot-0, started daemon 123145498624000)>
+[2019-10-03 10:27:01,135]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:01,135]:[Slot-0] - INFO - item:Waiting for fixture ready
+[2019-10-03 10:27:01,136]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:01,137]:[Slot-0.cfg] - INFO - [TX]reset
+[2019-10-03 10:27:01,137]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:01,398]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:27:01,399]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:27:01,505]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:01,505]:[Slot-0] - INFO - item:Set LED on
+[2019-10-03 10:27:01,506]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:01,506]:[Slot-0.cfg] - INFO - [TX]set LED on
+[2019-10-03 10:27:01,507]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:01,768]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:27:01,768]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:27:01,869]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:01,870]:[Slot-0] - INFO - item:Set LED off
+[2019-10-03 10:27:01,870]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:01,871]:[Slot-0.cfg] - INFO - [TX]set LED off
+[2019-10-03 10:27:01,872]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:02,132]:[Slot-0.cfg] - INFO - [RX]OK*_*
+
+[2019-10-03 10:27:02,133]:[Slot-0] - INFO - result:pass val:OK*_* low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:27:02,234]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:02,234]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:27:02,234]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:02,234]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:27:02,235]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:02,495]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:27:02,496]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:27:02,597]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:02,598]:[Slot-0] - INFO - item:Read temperature
+[2019-10-03 10:27:02,599]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:02,599]:[Slot-0.cfg] - INFO - [TX]readTmp
+[2019-10-03 10:27:02,599]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:02,854]:[Slot-0.cfg] - INFO - [RX]35.67C*_*
+
+[2019-10-03 10:27:02,855]:[Slot-0] - INFO - result:pass val:35.67 low:32.1 ref: up:40.1 unit:C duration:0.26s
+[2019-10-03 10:27:02,956]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:02,957]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:27:02,998]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:27:02,998]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145530155008)>
+[2019-10-03 10:27:03,585]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:27:03,585]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:27:04,155]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:NG
+[2019-10-03 10:27:04,156]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145530155008)>
+[2019-10-03 10:27:04,771]:[Slot-0] - INFO - slot_id:0 msg:asyncReply:OK
+[2019-10-03 10:27:04,772]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(asyncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:27:04,837]:[Slot-0] - INFO - Async task print log!!!
+[2019-10-03 10:27:04,838]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:1.88s
+[2019-10-03 10:27:04,941]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:04,942]:[Slot-0] - INFO - item:Read Open/Short
+[2019-10-03 10:27:04,942]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:04,942]:[Slot-0.cfg] - INFO - [TX]FETC?
+[2019-10-03 10:27:04,942]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:05,356]:[Slot-0.cfg] - INFO - [RX]+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37
+
+[2019-10-03 10:27:05,357]:[Slot-0] - INFO - result:pass val:+9.10000000E+37,+9.20000000E+37,+9.30000000E+37,+9.40000000E+37,+9.50000000E+37 low: ref: up: unit: duration:0.42s
+[2019-10-03 10:27:05,457]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,457]:[Slot-0] - INFO - item:Check Open1 Value
+[2019-10-03 10:27:05,457]:[Slot-0] - INFO - result:pass val:+9.10000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:05,558]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,558]:[Slot-0] - INFO - item:Check Open2 Value
+[2019-10-03 10:27:05,558]:[Slot-0] - INFO - result:pass val:+9.20000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:05,661]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,662]:[Slot-0] - INFO - item:Check Open3 Value
+[2019-10-03 10:27:05,662]:[Slot-0] - INFO - result:pass val:+9.30000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:05,767]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,768]:[Slot-0] - INFO - item:Check Open4 Value
+[2019-10-03 10:27:05,768]:[Slot-0] - INFO - result:pass val:+9.40000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:05,871]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,871]:[Slot-0] - INFO - item:Check Open5 Value
+[2019-10-03 10:27:05,871]:[Slot-0] - INFO - result:pass val:+9.50000000E+37 low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:05,975]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:05,975]:[Slot-0] - INFO - item:Check Open6 Value
+[2019-10-03 10:27:05,976]:[Slot-0] - INFO - result:skip val:NA low:100000 ref: up: unit:oHM duration:0.00s
+[2019-10-03 10:27:06,078]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:06,078]:[Slot-0] - INFO - item:Show dialog
+[2019-10-03 10:27:06,130]:[Slot-0] - INFO - slot_id:0 msg:syncReply:OK
+[2019-10-03 10:27:06,131]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<Thread(syncQueryThread_Slot-0, started daemon 123145524899840)>
+[2019-10-03 10:27:06,236]:[Slot-0] - INFO - result:pass val:OK low: ref: up: unit: duration:0.16s
+[2019-10-03 10:27:06,341]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:06,342]:[Slot-0] - INFO - item:Fixture ready
+[2019-10-03 10:27:06,343]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:06,343]:[Slot-0.cfg] - INFO - [TX]Ready
+[2019-10-03 10:27:06,343]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:06,598]:[Slot-0.cfg] - INFO - [RX]OK
+
+[2019-10-03 10:27:06,598]:[Slot-0] - INFO - result:pass val:OK low: ref:OK up: unit: duration:0.26s
+[2019-10-03 10:27:06,701]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:06,701]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:27:06,701]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:06,701]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:27:06,701]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:06,953]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:27:06,953]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.25s
+[2019-10-03 10:27:07,054]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:07,054]:[Slot-0] - INFO - item:Button ON
+[2019-10-03 10:27:07,054]:[Slot-0] - INFO - result:skip val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:27:07,155]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:07,155]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:27:07,155]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:07,156]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:27:07,156]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:07,414]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:27:07,415]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:27:07,516]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:07,518]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:27:07,518]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:07,518]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:27:07,518]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:07,774]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:27:07,775]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:27:07,880]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:07,881]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:27:07,881]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:07,882]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:27:07,882]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:08,139]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:27:08,139]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:27:08,244]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:08,245]:[Slot-0] - INFO - item:Verify Arduino version
+[2019-10-03 10:27:08,245]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:08,246]:[Slot-0.cfg] - INFO - [TX]version
+[2019-10-03 10:27:08,247]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:08,502]:[Slot-0.cfg] - INFO - [RX]<Arduino-01-08-02-P>
+
+[2019-10-03 10:27:08,503]:[Slot-0] - INFO - result:pass val:<Arduino-01-08-02-P> low: ref:P up: unit: duration:0.26s
+[2019-10-03 10:27:08,607]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:08,608]:[Slot-0] - INFO - item:Read IO13 voltage value
+[2019-10-03 10:27:08,608]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:08,608]:[Slot-0.cfg] - INFO - [TX]readVolt1
+[2019-10-03 10:27:08,609]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:08,864]:[Slot-0.cfg] - INFO - [RX]4.86V*_*
+
+[2019-10-03 10:27:08,865]:[Slot-0] - INFO - result:pass val:4.86 low:4.5 ref: up:5.2 unit:V duration:0.26s
+[2019-10-03 10:27:08,966]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:08,967]:[Slot-0] - INFO - item:Read step
+[2019-10-03 10:27:08,967]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:08,968]:[Slot-0.cfg] - INFO - [TX]readStep
+[2019-10-03 10:27:08,968]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:09,225]:[Slot-0.cfg] - INFO - [RX]55*_*
+
+[2019-10-03 10:27:09,225]:[Slot-0] - INFO - result:pass val:55 low:30 ref: up:60 unit:Sunit duration:0.26s
+[2019-10-03 10:27:09,329]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:09,329]:[Slot-0] - INFO - item:System error value
+[2019-10-03 10:27:09,330]:[Slot-0.cfg] - DEBUG - this is writeFunc
+[2019-10-03 10:27:09,331]:[Slot-0.cfg] - INFO - [TX]SYST:ERR?
+[2019-10-03 10:27:09,332]:[Slot-0.cfg] - DEBUG - this is readFunc
+[2019-10-03 10:27:09,588]:[Slot-0.cfg] - INFO - [RX]+0,No Error
+
+[2019-10-03 10:27:09,589]:[Slot-0] - INFO - result:pass val:+0,No Error low: ref:0 up: unit: duration:0.26s
+[2019-10-03 10:27:09,692]:[Slot-0] - INFO - -----------------------------------
+[2019-10-03 10:27:09,692]:[Slot-0] - INFO - item:Test socketServer
+[2019-10-03 10:27:09,692]:[Slot-0] - ERROR - error:unknown function:socket
+[2019-10-03 10:27:09,693]:[Slot-0] - INFO - result:pass val:NA low: ref:OK up: unit: duration:0.00s
+[2019-10-03 10:27:09,973]:[Slot-0] - INFO - slot_id:0 msg:finish
+[2019-10-03 10:27:09,974]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:27:16,418]:[Slot-0] - INFO - slot_id:0 msg:exit
+[2019-10-03 10:27:16,418]:[Slot-0] - WARNING - Slot-0:receiveMsgFromSS<_MainThread(MainThread, started 4657059264)>
+[2019-10-03 10:27:16,422]:[Slot-0] - INFO - close self done.

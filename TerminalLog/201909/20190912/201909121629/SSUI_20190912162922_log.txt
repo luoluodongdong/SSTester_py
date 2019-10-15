@@ -1,0 +1,34 @@
+[2019-09-12 16:29:22,627]:[SSUI] - INFO - ----new log.txt creat----
+[2019-09-12 16:29:22,628]:[SSUI] - INFO - log level:DEBUG
+[2019-09-12 16:29:24,442]:[SSUI.cfg] - INFO - this is setup func...
+[2019-09-12 16:29:24,443]:[SSUI.cfg] - WARNING - unload device:Fixture
+[2019-09-12 16:29:24,443]:[SSUI.cfg] - WARNING - unload device:34970
+[2019-09-12 16:29:25,567]:[SSUI] - INFO - start SS view done.
+[2019-09-12 16:29:25,567]:[SSUI] - WARNING - SSUI:<_MainThread(MainThread, started 4670744000)>
+[2019-09-12 16:29:33,247]:[SSUI] - DEBUG - click debug mode menu
+[2019-09-12 16:29:33,248]:[SSUI] - INFO - Password loadUI done
+[2019-09-12 16:29:34,968]:[SSUI] - INFO - key match
+[2019-09-12 16:29:34,968]:[SSUI] - INFO - password is right
+[2019-09-12 16:29:48,450]:[SSUI] - INFO - index:0 msg:closeCfgView
+[2019-09-12 16:29:48,450]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:29:49,996]:[SSUI] - DEBUG - ss view config btn click
+[2019-09-12 16:29:49,996]:[SSUI.cfg] - INFO - this is loadUI func...
+[2019-09-12 16:29:49,997]:[SSUI.cfg] - INFO - ConfigUI loadUI done
+[2019-09-12 16:29:52,234]:[SSUI.cfg] - DEBUG - [info]manual close config view...
+[2019-09-12 16:29:52,235]:[SSUI.cfg] - INFO - cfg ui msg:-1
+[2019-09-12 16:29:52,235]:[SSUI] - DEBUG - msg form config:-1
+[2019-09-12 16:30:10,343]:[SSUI] - INFO - index:0 msg:closeCfgView
+[2019-09-12 16:30:10,344]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:13,323]:[SSUI] - INFO - index:1 msg:closeCfgView
+[2019-09-12 16:30:13,323]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:19,366]:[SSUI] - INFO - index:3 msg:exitOK
+[2019-09-12 16:30:19,367]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:19,392]:[SSUI] - INFO - index:0 msg:exitOK
+[2019-09-12 16:30:19,393]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:19,393]:[SSUI] - INFO - index:2 msg:exitOK
+[2019-09-12 16:30:19,393]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:19,393]:[SSUI] - INFO - index:1 msg:exitOK
+[2019-09-12 16:30:19,394]:[SSUI] - INFO - SS lock release now
+[2019-09-12 16:30:19,443]:[SSUI] - INFO - all slot exit OK!
+[2019-09-12 16:30:19,643]:[SSUI] - INFO - will exit the app...
+[2019-09-12 16:30:20,654]:[SSUI] - INFO - message from exit bar:0
