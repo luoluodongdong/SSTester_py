@@ -19,7 +19,7 @@ from MyModules.MyDialogs import MyDialogOk
 from MyModules.SlotView import SlotView
 from MyModules.ScanSnView import ScanSnUI
 from MyModules.PassWordView import PassWordUI
-from MyModules.SSConfigView import SSConfigView
+from MyModules.ConfigView import ConfigPanel
 from MyModules.Logger import MyLogger
 from MyModules.RWjson import RWjson
 from MyModules.LogCsv import SaveLog
@@ -142,7 +142,7 @@ class SSUI(object):
         #   self.cfgView.devices['Fixture']
         #   self.cfgView.devices['34970']
         # -------------------------
-        self.cfgView = SSConfigView(self.master, -1, self.receivedMsgFromConfig)
+        self.cfgView = ConfigPanel(self.master, "SSUI", self.receivedMsgFromConfig)
         if self.cfgView.errCount != 0:
             self.myLogger.logger.error('config error,please check!')
             messagebox.showerror(title='Error', message='SS Config error,please check!')
@@ -479,6 +479,7 @@ class SSUI(object):
             # else:  # Mac os / Linux os
             #     os.system('killall python')
             # return True
+
             return False
         else:
 

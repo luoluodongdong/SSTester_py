@@ -1,4 +1,20 @@
 {
+    "SSUI": {
+        "Dev0": {
+            "name": "Fixture",
+            "load": 0,
+            "type": "serial",
+            "port": "/dev/cu.wchusbserial1421000",
+            "baud": 9600
+        },
+        "Dev1": {
+            "name": "34970",
+            "load": 0,
+            "type": "nivisa",
+            "port": "ASRL900::INSTR",
+            "baud": 9600
+        }
+    },
     "Slot-1": {
         "Dev1": {
             "load": 0,

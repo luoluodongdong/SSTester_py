@@ -12,11 +12,11 @@ import logging
 class ConfigUI(tk.Toplevel):
     """docstring for TestUI"""
 
-    def __init__(self,master,index,logger,sendMsg):
+    def __init__(self,master,name,logger,sendMsg):
         super(ConfigUI, self).__init__()
 
         self.master = master
-        self.index=index
+        self.name=name
         self.logger=logger
         self.sendMsg=sendMsg
         self.devices=None
@@ -49,7 +49,7 @@ class ConfigUI(tk.Toplevel):
         for key in self.devices:
             self.devices[key].setup(parent,10,10 + 70 *i)
             i += 1
-        self.title("Slot-%d Config View" %self.index)
+        self.title("%s Config View" %self.name)
 
     # 窗体手动关闭时回调事件
     def callback(self):
@@ -62,14 +62,14 @@ class ConfigUI(tk.Toplevel):
         # self.saveCfg()
 
 
-class SlotConfigView(object):
+class ConfigPanel(object):
     """docstring for ConfigView"""
 
-    def __init__(self, master,index,sendMsg):
-        super(SlotConfigView, self).__init__()
+    def __init__(self, master,devKey,sendMsg):
+        super(ConfigPanel, self).__init__()
         self.master = master
-        self.index=index
-        self.logger=logging.getLogger('Slot-%d.cfg' %self.index)
+        self.devKey=devKey
+        self.logger=logging.getLogger('%s.cfg' %self.devKey)
         self.sendMsg=sendMsg
         self.errCount=0
         self.devices={}
@@ -78,9 +78,9 @@ class SlotConfigView(object):
     def setup(self):
         self.logger.debug('this is setup func...')
         self.readCfg()
-        print(self.slotCfg)
-        for dev in self.slotCfg:
-            cfg=self.slotCfg[dev]
+        print(self.devCfg)
+        for dev in self.devCfg:
+            cfg=self.devCfg[dev]
             devType=cfg['type']
             load=cfg['load']
             if not load:
@@ -104,18 +104,17 @@ class SlotConfigView(object):
 
     def loadUI(self):
         self.logger.debug('this is loadUI func...')
-        self.cfgUI=ConfigUI(self.master,self.index,self.logger,self.receivedMsgFromCfgUI)
+        self.cfgUI=ConfigUI(self.master,self.devKey,self.logger,self.receivedMsgFromCfgUI)
         self.cfgUI.devices=self.devices
-        self.readCfg()
+        # self.readCfg()
         self.cfgUI.showUI()
 
     def readCfg(self):
-        self.rwJson=RWjson('SlotCfg.json')
+        self.rwJson=RWjson('DevicesCfg.json')
         result,self.rootCfg=self.rwJson.loadJson()
         if result:
             self.logger.debug(self.rootCfg)
-            slotName='Slot-%d' %self.index
-            self.slotCfg=self.rootCfg[slotName]
+            self.devCfg=self.rootCfg[self.devKey]
         else:
             self.logger.error('load config json error')
             raise
@@ -132,8 +131,7 @@ class SlotConfigView(object):
 
     def saveEvent(self,key,config):
         self.logger.debug("{}:{}".format(key,config))
-        slotName='Slot-%d' %self.index
-        self.rootCfg[slotName][key]=config
+        self.rootCfg[self.devKey][key]=config
         print('Slot Config View saveEvent:' +str(self.rootCfg))
         self.saveCfg()
 
@@ -147,39 +145,3 @@ class SlotConfigView(object):
                 self.devices[item].close()
 
 
-#----------------------------------------------------------------------------
-#------------just for test self------------#
-def receivedMsgFromConfig(msg):
-    print('from config view msg:' +str(msg))
-
-if __name__ == '__main__':
-
-    root = Tk()
-    root.title("SS View")
-    root.geometry('800x600')  # 是x 不是*
-    root.resizable(width=False, height=False)  # 宽不可变, 高可变,默认为True
-
-    combostyle = ttk.Style()
-
-    combostyle.theme_create('combostyle',
-                            parent='alt',
-                            settings={'BW.TCombobox':
-                                      {'configure':
-                                       {'foreground': 'black',
-                                        'selectbackground': '#403c40',
-                                        'fieldbackground': 'white',
-                                        'background': 'yellow'
-                                        }
-                                       }
-                                      }
-                            )
-    combostyle.theme_use('combostyle')
-    # scanSn.snEntry.focus()
-
-    cfgUI = ConfigUI(root,0,receivedMsgFromConfig)
-    cfgUI.serial1.writeFunc('this is command111')
-    cfgUI.serial2.writeFunc('this is command222')
-    cfgUI.showUI()
-    print('show config view done.')
-
-    root.mainloop()

@@ -1,2 +1,0 @@
-[2019-10-03 10:14:55,169]:[SSUI] - INFO - ----new log.txt creat----
-[2019-10-03 10:14:55,169]:[SSUI] - INFO - log level:DEBUG

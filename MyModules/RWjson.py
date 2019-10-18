@@ -37,7 +37,7 @@ class RWjson(object):
 
 
 if __name__ == '__main__':
-    rwJson=RWjson('SlotCfg.json')
+    rwJson=RWjson('DevicesCfg.json')
     result,load_dict=rwJson.loadJson()
     print(load_dict['Slot-0']['Dev0'])
 

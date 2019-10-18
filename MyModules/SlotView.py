@@ -14,7 +14,7 @@ import sys
 
 from .DetialView import DetialView
 from .MyDialogs import MyDialogOk
-from .SlotConfigView import SlotConfigView
+from .ConfigView import ConfigPanel
 from .Logger import MyLogger
 from .LoadTestplan import LoadTestPlan
 import zmq
@@ -71,8 +71,10 @@ class SlotView(object):
 
         self.initWidgets()
         # 加载设备
-        self.cfgView = SlotConfigView(self.master, self.index, self.receivedMsgFromConfig)
+        self.cfgView = ConfigPanel(self.master, "Slot-%d" %self.index, self.receivedMsgFromConfig)
         if self.cfgView.errCount != 0:
+            self.myLogger.logger.error('Slot-%d config error,please check!' %self.index)
+            messagebox.showerror(title='Error', message='Slot-%d Config error,please check!' %self.index)
             self.changeStatus('error')
         # 加载TestPlan
         testPlanFile = self.cfgView.rwJson.resourceFolder + '/TestPlan.csv'
