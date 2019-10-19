@@ -2,11 +2,13 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
+from PIL import Image, ImageTk
 
 # 引入字体模块
 # import tkinter.font as tkFont
 
 import time
+from datetime import datetime
 from tkinter import messagebox
 import threading
 import queue
@@ -24,6 +26,7 @@ from MyModules.Logger import MyLogger
 from MyModules.RWjson import RWjson
 from MyModules.LogCsv import SaveLog
 from MyModules.ProgressBars import MyProgressBar1, MyWelcomeBar
+from MyModules.LogView import LogView
 # 主框架SSView
 
 
@@ -54,6 +57,8 @@ class SSUI(object):
         self.master.update()
         self.updateUIQueue.put((4, 'load_2'))
         self.updateUIQueue.put((5, 'load_3'))
+
+        self.initLogView()
         # self.load_2()
         # self.load_3()
         self.master.mainloop()
@@ -94,6 +99,7 @@ class SSUI(object):
         self.updateUIQueue = queue.Queue()
         self.receivedMsgQueue = queue.Queue()
         self.exitProgressQueue = queue.Queue()
+        self.printLogQueue = queue.Queue()
 
         # self.master.update()
         # self.welcomeBar.deiconify()
@@ -230,9 +236,14 @@ class SSUI(object):
 
     # 载入SS view 的所有元素
     def setup(self):
-        frame1 = tk.Frame(self.master, bg="yellow", relief=tk.SOLID,)
+        frame1_color_bg='white'  # 'yellow'
+        frame2_color_bg='white'  # 'green'
+        frame3_color_bg='white'  # '#E6E6FA'
+        logo_frame_bg='white'  # 'blue'
+
+        frame1 = tk.Frame(self.master, bg=frame1_color_bg, relief=tk.SOLID,)
         #self.lf.pack(expand=NO, padx=self.x, pady=self.y)
-        frame1.place(x=5, y=5, width=600, height=50)
+        frame1.place(x=5, y=5, width=580, height=50)
 
         # 指定字体名称、大小、样式
         #ft = tkFont.Font(family='Fixdsys', size=28, weight=tkFont.NORMAL)
@@ -255,7 +266,19 @@ class SSUI(object):
         # 使用place()设置该Label的大小和位置
         self.verLabel.place(x=460, y=15, width=100, height=30)
 
-        frame2 = tk.Frame(self.master, bg="green", relief=tk.SOLID)
+        logo_frame = tk.Frame(self.master, bg=logo_frame_bg, relief=tk.SOLID)
+        logo_frame.place(x=590, y=0, width=200, height=60)
+        # 创建一个图片管理类
+        logoImage = self.resousePath + '/logo2.png'
+        img = Image.open(logoImage)  # 打开图片
+        self.logo_photo = ImageTk.PhotoImage(img.resize((180,40),Image.ANTIALIAS))  # 用PIL模块的PhotoImage打开
+        # self.logo_photo = tk.PhotoImage(file=logoImage)  # file：t图片路径
+        imgLabel = tk.Label(logo_frame,image=self.logo_photo)  # 把图片整合到标签类中
+        # imgLabel.pack(side=tk.RIGHT)  # 自动对齐
+        imgLabel.bind('<Button-1>',self.logoClick)
+        imgLabel.place(x=10, y=0, width=180, height=55)
+
+        frame2 = tk.Frame(self.master, bg=frame2_color_bg, relief=tk.SOLID)
         frame2.place(x=600, y=80, width=180, height=60)
 
         # 新建一个输入框
@@ -269,12 +292,12 @@ class SSUI(object):
         self.snEntry.bind('<Return>', self.inputSnEvent)
         # 新建一个按钮
         self.startAll_btn = Button(frame2,
-                                   text='TestAll',
+                                   text='StartAll',
                                    command=self.clickStartAllBtn)  # 背景色:蓝色
 
         self.startAll_btn.place(x=30, y=30, width=100, height=30)
         # yield panel frame
-        frame3 = tk.Frame(self.master, bg="#E6E6FA", relief=tk.SOLID)
+        frame3 = tk.Frame(self.master, bg=frame3_color_bg, relief=tk.SOLID)
         frame3.place(x=600, y=160, width=180, height=120)
         self.inputLabel = Label(frame3,
                                 textvariable=self.inputInfo,
@@ -305,7 +328,7 @@ class SSUI(object):
                                 text='Clear',
                                 command=self.clearYield)  # 背景色:蓝色
 
-        self.clear_btn.place(x=30, y=80, width=60, height=20)
+        self.clear_btn.place(x=50, y=80, width=60, height=20)
 
         # debug panel frame
         self.debugFrame = tk.Frame(self.master, bg="#E6E6FA", relief=tk.SOLID)
@@ -357,6 +380,28 @@ class SSUI(object):
         self.abortLoop_btn.place(x=10, y=172, width=70, height=20)
         self.abortLoop_btn['state'] = DISABLED
 
+    def initLogView(self):
+        config = {
+            "index": 0,
+            "master": self.master,
+            "queue": self.printLogQueue,
+            "closeEvent": self.closeLogEvent,
+            "items": ["1","2"]
+        }
+        self.logView = LogView(config)
+
+    # log view窗口关闭时回调
+    def closeLogEvent(self,msg):
+        self.myLogger.logger.debug("close log view event")
+        self.myLogger.logger.debug(msg)
+        self.master.grab_set()
+
+    # 点击Logo image
+
+    def logoClick(self,event=None):
+        print('logo click now')
+        self.logView.showUI()
+
     # ---------------------------
     # 界面点击事件
     # ---------------------------
@@ -378,6 +423,8 @@ class SSUI(object):
     # 点击SS view ‘StartAll’按钮
     def clickStartAllBtn(self):
         self.myLogger.logger.debug("start all test...")
+        # reset log view
+        self.printLogQueue.put((3, 'resetUI'))
 
         if not self.snIsReady:
             messagebox.showerror(title='Error', message='Please scan sn first!')
@@ -645,6 +692,7 @@ class SSUI(object):
                     ls = self.receivedMsgQueue.get(0)
                     index = ls[0]
                     msg = ls[1]
+                    self.myPrint(str(ls))
                     if msg.startswith("selected"):
                         value = int(msg.split(':')[1])
                         self.selectedArr[index] = value
@@ -659,12 +707,17 @@ class SSUI(object):
                     elif msg.startswith("endTest"):
                         self.endTestCount += 1
                         self.syncSignaCheckSUM -= 1
-                        resultVal = int(msg.split('#')[1])
-                        self.allCsvData = self.allCsvData + msg.split('#')[2] + '\n'
+
                         self.inputCount += 1
-                        self.passCount += resultVal
+
                         if self.endTestCount == self.selectedSlotCount:
                             self.myLogger.logger.info("find all test task!")
+                            if msg.find('#') == -1:
+                                self.updateUIQueue.put((0, 'finishTest'))
+                                break
+                            resultVal = int(msg.split('#')[1])
+                            self.passCount += resultVal
+                            self.allCsvData = self.allCsvData + msg.split('#')[2] + '\n'
                             # save all slots csv data
                             modeStr = 'Normal'
                             if self.modeValue.get() == 1:
@@ -743,7 +796,7 @@ class SSUI(object):
                             t.start()
                         self.myLogger.logger.debug('start sync reply done.')
                 except Exception as e:
-                    self.myLogger.logger.error(str(e))
+                    self.myLogger.logger.error('[receive msg error]:' +str(e))
             time.sleep(0.05)
 
     # -----------------------------
@@ -790,6 +843,14 @@ class SSUI(object):
     def exitProgressFinish(self, msg):
         self.myLogger.logger.info("message from exit bar:" + str(msg))
         self.master.destroy()
+
+    def myPrint(self,log):
+        nowTime = datetime.now()
+        tStr = nowTime.strftime('%H:%M:%S')
+        msStr = nowTime.microsecond
+        tStr = '[{}.{}]'.format(tStr, msStr)
+        log = tStr + log
+        self.printLogQueue.put((2,'\n' +log))
 
 
 if __name__ == '__main__':

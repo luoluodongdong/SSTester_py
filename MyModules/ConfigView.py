@@ -5,6 +5,7 @@ from tkinter import ttk
 
 from .SerialPort import *
 from .Instruments import *
+from .SocketTcp import *
 from .RWjson import *
 import logging
 
@@ -86,7 +87,7 @@ class ConfigPanel(object):
             if not load:
                 self.logger.warn('unload device:%s' %cfg['name'])
                 continue
-            # test serial port
+            # serial port
             if devType == 'serial':
                 print(str(cfg))
                 serialDev=SerialDevice(dev,cfg,self.logger,self.saveEvent)
@@ -95,12 +96,26 @@ class ConfigPanel(object):
                 serialDev.bg='gray'
                 if not serialDev.autoOpen():
                     self.errCount+=1
+            # ni instrument
             elif devType == 'nivisa':
                 instr=NivisaDev(dev,cfg,self.logger,self.saveEvent)
                 self.devices[cfg['name']]=instr
                 instr.bg='yellow'
                 if not instr.autoOpen():
                     self.errCount+=1
+            # socket device
+            elif devType == 'socket':
+                socketDev=SocketDevice(dev,cfg,self.logger,self.saveEvent)
+                self.devices[cfg['name']]=socketDev
+                socketDev.bg='green'
+                if not socketDev.autoOpen():
+                    self.errCount+=1
+                else:
+                    pass
+                    # just for test client mode
+                    # if 'client' == cfg['mode']:
+                    #     time.sleep(0.2)
+                    #     socketDev.query('hello')
 
     def loadUI(self):
         self.logger.debug('this is loadUI func...')

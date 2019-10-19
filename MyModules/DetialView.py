@@ -170,6 +170,7 @@ class TextView(object):
         self.scrText.see(tk.END)
 
     def add_log_arr(self,logArr):
+        self.clearAll()
         str_data = ''.join([str(i) for i in logArr[::1]])
         self.scrText.insert(tk.END, str_data)
         self.scrText.see(tk.END)
@@ -195,7 +196,6 @@ class DetialView(tk.Toplevel):
 
         self.isShowView=False
         self.updateUIFlag=False
-        self.initLoadFlag=False
         self.updateIsBusy=False
         self.statusArr=[]
         self.infoArr=[]
@@ -228,8 +228,7 @@ class DetialView(tk.Toplevel):
         self.geometry("+%d+%d" % (self.master.winfo_rootx() + 50,
                                   self.master.winfo_rooty() + 50))
         self.isShowView=True
-        self.initLoadFlag=False
-        # self.initLoadData()
+        self.initLoadData()
         self.deiconify()
         self.master.update()
         self.grab_set()
@@ -299,9 +298,6 @@ class DetialView(tk.Toplevel):
         self.updateIsBusy=True
         if self.isShowView:
             self.updateUIFlag=True
-            if not self.initLoadFlag:
-                self.initLoadData()
-                self.initLoadFlag=True
         else:
             self.updateUIFlag=False
         # self.myPrint("update ui...")

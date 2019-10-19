@@ -13,6 +13,14 @@
             "type": "nivisa",
             "port": "ASRL900::INSTR",
             "baud": 9600
+        },
+        "Dev2": {
+            "name": "Socket Test",
+            "load": 0,
+            "type": "socket",
+            "mode": "server",
+            "ip": "127.0.0.1",
+            "port": 5555
         }
     },
     "Slot-1": {

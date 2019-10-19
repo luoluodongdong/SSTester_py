@@ -1,8 +1,8 @@
 {
     "SoftwareName": "SMT PCBA Tester",
     "Version": "1.0.1",
-    "SlotCount": 4,
+    "SlotCount": 3,
     "PassWord": "123",
-    "input": 84,
-    "pass": 80
+    "input": 18,
+    "pass": 2
 }
