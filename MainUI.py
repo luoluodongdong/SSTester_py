@@ -380,6 +380,10 @@ class SSUI(object):
         self.abortLoop_btn.place(x=10, y=172, width=70, height=20)
         self.abortLoop_btn['state'] = DISABLED
 
+    # ---------------------------
+    # SSUI-LogView事件
+    # ---------------------------
+    # 初始化logview
     def initLogView(self):
         config = {
             "index": 0,
@@ -397,7 +401,6 @@ class SSUI(object):
         self.master.grab_set()
 
     # 点击Logo image
-
     def logoClick(self,event=None):
         print('logo click now')
         self.logView.showUI()
@@ -423,8 +426,6 @@ class SSUI(object):
     # 点击SS view ‘StartAll’按钮
     def clickStartAllBtn(self):
         self.myLogger.logger.debug("start all test...")
-        # reset log view
-        self.printLogQueue.put((3, 'resetUI'))
 
         if not self.snIsReady:
             messagebox.showerror(title='Error', message='Please scan sn first!')
@@ -662,6 +663,8 @@ class SSUI(object):
 
     # 开始所有单元的测试
     def startAllTestAction(self):
+        # reset log view
+        self.printLogQueue.put((3, 'resetUI'))
         self.isTesting = True
         self.SSKey = True
         self.syncSignaCount = 0

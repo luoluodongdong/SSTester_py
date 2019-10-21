@@ -109,7 +109,7 @@ class LogView(tk.Toplevel):
         self.load_isOK=True
         self.textView=TextView(parent)
         self.textView.initUI()
-        self.title("Slot-%d" %self.index)
+        self.title("SSUI-LogView")
 
     def initLoadData(self):
         self.textView.add_log_arr(self.logArr)
